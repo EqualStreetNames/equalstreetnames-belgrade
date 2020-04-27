@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css">
+    <link rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css">
+    <link rel="stylesheet" href="../../assets/style.css">
+    <link rel="stylesheet" href="../../../../resources/loader.scss">
+
+    <title>EqualStreetNames.Belgrade</title>
+</head>
+
+<body>
+    <div id="loader-wrapper">
+        <div id="loader-title">EqualStreetNames.Belgrade</div>
+        <div id="loader"></div>
+        <div id="loader-status">Loading...</div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">EqualStreetNames.Belgrade</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" class="btn btn-primary" data-toggle="modal" href="#about">
+                        <i class="fas fa-info-circle"></i>
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" class="btn btn-primary" data-toggle="modal" href="#contact">
+                        <i class="fas fa-envelope"></i>
+                        Contact
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://github.com/openknowledgebe/equalstreetnames/">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">English</a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="/sr/index.html">Српски</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="flex-fill">
+        <div id="map"></div>
+        <div id="chart-overlay" class="d-none d-sm-block">
+            <div id="gender-chart">
+                <table id="gender-chart-legend" class="table table-borderless table-sm">
+                    <tbody>
+                        <tr class="gender-chart-label" data-gender="m">
+                            <td class="text-center"><i class="fas fa-lg fa-mars"></i></td>
+                            <td>Male (cis)</td>
+                            <td class="text-right gender-chart-count"></td>
+                            <td class="text-right gender-chart-pct"></td>
+                        </tr>
+                        <tr class="gender-chart-label" data-gender="f">
+                            <td class="text-center"><i class="fas fa-lg fa-venus"></i></td>
+                            <td>Female (cis)</td>
+                            <td class="text-right gender-chart-count"></td>
+                            <td class="text-right gender-chart-pct"></td>
+                        </tr>
+                        <tr class="gender-chart-label" data-gender="mx">
+                            <td class="text-center"><i class="fas fa-lg fa-transgender-alt"></i></td>
+                            <td>Male (trans)</td>
+                            <td class="text-right gender-chart-count"></td>
+                            <td class="text-right gender-chart-pct"></td>
+                        </tr>
+                        <tr class="gender-chart-label" data-gender="fx">
+                            <td class="text-center"><i class="fas fa-lg fa-transgender-alt"></i></td>
+                            <td>Female (trans)</td>
+                            <td class="text-right gender-chart-count"></td>
+                            <td class="text-right gender-chart-pct"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <canvas width="250" height="100"></canvas>
+            </div>
+            <div id="count-information" class="small">
+                Out of <span id="count-total"></span> streetnames, <span id="count-person"></span> are based on a
+                person.
+            </div>
+    </main>
+
+    <div id="about" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-info-circle"></i>
+                        About
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>Why EqualStreetNames.Belgrade?</h5>
+    
+                    <p>
+                        "Towards equal street names with Open Data" initiative tried to analyze etymology of street in city of Belgrade, with focus on their gender (in)equality.
+                        It started by looking at existing effort done in city of <a target="_blank" href="https://equalstreetnames.brussels/"></a>Brussels</a>.
+                        Analysis of both cities showed that huge majority of street names got their name based on male person.
+                    </p>
+                    <p>
+                        Although this might seem trivial, even invisible thing for one city, it is still important.
+                    </p>
+                    <p>
+                        The names of public spaces (streets, avenues, squares and others) define the identity of a city
+                        and how citizens interact with it. Street names can present invisible thread that shows city development over time, and can pinpoint to aspirations and movements inside one society.
+                        Street names are usually reserved for honorable and notable persons, culturally and historically important ones, but same as with Brussels, official street name board in Belgrade
+                        usually reserved tributes like this to males. 
+                    </p>
+                    <p>
+                        There are several ways to approach the inequality of street names and leverage a positive change
+                        in our society. Ours is with the use of Open Data to create a <strong>map visualizing the streetnames of Belgrade by gender</strong>.
+                    </p>
+
+                    <h5>How did we make this map?</h5>
+
+                    <p>
+                        To make this happen, we used <a target="_blank" href="http://opendefinition.org/">open data</a>
+                        - data which can be freely used, modified, and shared by anyone for any purpose - from
+                        <a target="_blank" href="https://openstreetmap.org/">OpenStreetMap</a> and
+                        <a target="_blank" href="https://www.wikipedia.org/">Wikipedia</a>.
+                    </p>
+                    <p>
+                        For each street in OpenStreetMap, we added etymology tag pointing to Wikidata entry (its "Q number").
+                        This is not an easy task, it can be boring, but it is extremely rewarding as one can learn and read
+                        so much along the way. When we had that, we took same project done for Brussels and adopted it for us.
+                        We wanted to thank all the people that built original project.
+                    </p>
+                    <p>
+                        This initiative originated in OpenStreetMap Serbia project and it was realized with two volonteers - Dina Jovanović and Branko Kokanović.
+                    </p>
+                    <hr>
+
+                    <p class="mb-0 small">
+                        <a target="_blank"
+                            href="https://github.com/openknowledgebe/equalstreetnames/tree/master/static">Datasets</a>,
+                        source code, and documentation available on
+                        <a target="_blank"
+                            href="https://github.com/openknowledgebe/equalstreetnames/#readme">GitHub</a>.<br>
+                        Website and data process built
+                        by <a target="_blank" href="https://openknowledge.be/">Open Knowledge Belgium</a>
+                        and <a target="_blank" href="https://geo6.be/">SPRL GEO-6 BVBA</a>.<br>
+                        Branko Kokanović adopted project for Serbia.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-envelope"></i>
+                        Contact
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Found bug or have ideas to improve this project?<br>
+                        Interested in replicating EqualStreetNames in another city?<br>
+                        Interested in hosting workshops or organizing a workshop in your municipality?<br>
+                    </p>
+
+                    <p>
+                        You can contact us using:
+                        <ul>
+                            <li>
+                                OSM Serbia mailing list
+                                <a href="mailto:talk-rs@openstreetmap.org">talk-rs@openstreetmap.org</a>
+                            </li>
+                            <li>
+                                <a href="https://forum.openstreetmap.org/viewtopic.php?id=69015">OSM Forum topic</a> on which you can reply
+                            </li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        If you want to contact original project's authors:
+                        <ul>
+                            <li>
+                                Open Knowledge Belgium:
+                                <a href="mailto:equalstreetnames@openknowledge.be">equalstreetnames@openknowledge.be</a>
+                            </li>
+                            <li>
+                                Noms Peut-Être:
+                                <a href="mailto:nomspeutetre@gmail.com">nomspeutetre@gmail.com</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="../../../../resources/index.ts"></script>
+    <script>
+      app.center = [20.4244, 44.8137];
+      app.zoom = 11;
+      app.bbox = [20.22290, 44.68811, 20.62407, 44.94272];
+      app.countries = "sr";
+      app.style = "mapbox://styles/stalker314314/ck8w75jo530qg1iqofl7fpww7";
+      app.init();
+    </script>
+    <!-- Fathom - simple website analytics - https://usefathom.com -->
+    <script>
+        (function (f, a, t, h, o, m) {
+            a[h] = a[h] || function () {
+                (a[h].q = a[h].q || []).push(arguments)
+            };
+            o = f.createElement('script'),
+                m = f.getElementsByTagName('script')[0];
+            o.async = 1; o.src = t; o.id = 'fathom-script';
+            m.parentNode.insertBefore(o, m)
+        })(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+        if (process.env.FATHOM_TOKEN) {
+            fathom('set', 'siteId', process.env.FATHOM_TOKEN);
+            fathom('trackPageview');
+        }
+    </script>
+    <!-- / Fathom -->
+</body>
+
+</html>

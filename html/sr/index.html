@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="sr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css">
+    <link rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css">
+    <link rel="stylesheet" href="../../assets/style.css">
+    <link rel="stylesheet" href="../../../../resources/loader.scss">
+
+    <title>EqualStreetNames.Belgrade</title>
+</head>
+
+<body>
+    <div id="loader-wrapper">
+        <div id="loader-title">EqualStreetNames.Belgrade</div>
+        <div id="loader"></div>
+        <div id="loader-status">Учитавање...</div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">EqualStreetNames.Belgrade</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" class="btn btn-primary" data-toggle="modal" href="#about">
+                        <i class="fas fa-info-circle"></i>
+                        О пројекту
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" class="btn btn-primary" data-toggle="modal" href="#contact">
+                        <i class="fas fa-envelope"></i>
+                        Контакт
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://github.com/openknowledgebe/equalstreetnames/">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Српски</a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="/en/index.html">English</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="flex-fill">
+        <div id="map"></div>
+        <div id="chart-overlay" class="d-none d-sm-block">
+            <div id="gender-chart">
+                <table id="gender-chart-legend" class="table table-borderless table-sm">
+                    <tbody>
+                        <tr class="gender-chart-label" data-gender="m">
+                            <td class="text-center"><i class="fas fa-lg fa-mars"></i></td>
+                            <td>Мушке</td>
+                            <td class="text-right gender-chart-count"></td>
+                            <td class="text-right gender-chart-pct"></td>
+                        </tr>
+                        <tr class="gender-chart-label" data-gender="f">
+                            <td class="text-center"><i class="fas fa-lg fa-venus"></i></td>
+                            <td>Женске</td>
+                            <td class="text-right gender-chart-count"></td>
+                            <td class="text-right gender-chart-pct"></td>
+                        </tr>
+                        <tr class="gender-chart-label" data-gender="mx">
+                            <td class="text-center"><i class="fas fa-lg fa-transgender-alt"></i></td>
+                            <td>Мушке (трансродне)</td>
+                            <td class="text-right gender-chart-count"></td>
+                            <td class="text-right gender-chart-pct"></td>
+                        </tr>
+                        <tr class="gender-chart-label" data-gender="fx">
+                            <td class="text-center"><i class="fas fa-lg fa-transgender-alt"></i></td>
+                            <td>Женске (трансродне)</td>
+                            <td class="text-right gender-chart-count"></td>
+                            <td class="text-right gender-chart-pct"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <canvas width="250" height="100"></canvas>
+            </div>
+            <div id="count-information" class="small">
+                Од <span id="count-total"></span> улица, <span id="count-person"></span> носе имена по особи.
+            </div>
+    </main>
+
+    <div id="about" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-info-circle"></i>
+                        О пројекту
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>Чему EqualStreetNames.Belgrade?</h5>
+
+                    <p>
+                            Иницијатива "Отвореним подацима до родно равноправних имена улица" односи се на део анализе о пореклу назива улица у Београду са фокусом на родну (не)равноправност у расподели тих имена.
+                            Настала је по угледу на идентичан пројекат у оквиру кога су анализиране улице у <a target="_blank" href="https://equalstreetnames.brussels/">Бриселу</a>. Анализом два града за сада проучаваних, Брисела и Београда, закључено је да неупоредиво већи
+                            број назива улица носи имена по личностима мушког пола.
+                    </p>
+                    <p>
+                            Иако се ово чини као секундарна, а некада и неприметна ствар код једног града, зашто је ово ипак важно?
+                    </p>
+                    <p>
+                            Имена јавних места (улица, булевара, тргова и сл.) дефинишу идентитет града и како грађани интереагују са њим.
+                            Називи улица могу да представе невидљиву нит развоја града и укажу на тежње и ставове једног друштва. Називима улица се често одаје почаст знаменитим личностима,
+                            битиним за историју и културу у друштву, али као што је случај са Бриселом, тако су и комисије за давање имена београдским улицама ту почаст углавном указивале мушкарцима. 
+                    </p>
+                    <p>
+                            С обзиром да се цео свет мења, тако и ми идемо напред ка решењу оваквих питања. Постоје различити начини стварања позитивних промена у нашем друштву,
+                            а приступање проблему родне (не)равноправности је један од њих. Наш допринос је остварен уз коришћење Отворених Података да би направили <strong>карту Београда са прегледом имена улица по роду</strong>. 
+                    </p>
+
+                    <h5>Како смо направили карту?</h5>
+
+                    <p>
+                        Користили смо Отворене Податке - податке који се могу слободно користити, мењати и делити са било ким у било које сврхе - од OpenStreetMap пројекта до Википедије.
+                    </p>
+                    <p>
+                        За сваку улицу у OpenStreetMap-ама смо унели етимолошку одредницу ка Wikidata пројекту (њен тзв. "Q број" који садржи све податке са Wikipedia стране).
+                        Као што је претходно наведено, бавили смо се пореклом имена улице (по географским појмовима, личностима, датумима, занимањима, итд.) у циљу указивања на неједнакост полова али сами подаци имају потенцијала и
+                        за отварање других пројеката који ће се бавити неком другом тематиком.
+                    </p>
+                    <p>
+                        Рад на овом пројекту је био пешачки, што значи да је сваки податак унет ручно, а претходно је сваки назив улице проверен на Wikipedia страни.
+                        Поред тога што некада није лако идентификовати порекло назива, пројекат је додатно компликован, али и интересантан јер наводи онога који ради на овоме на читање и учење о најразличитијим стварима.
+                    </p>
+                    <p>
+                        Када смо имали све те податке, узели смо истоветан пројекат рађен за град Брисел и прилагодили га нама.
+                        Овим путем желимо да се захвалимо људима који су направили оригинални пројекат и инспирисали нас да и ми укажемо на равноправност у родној расподели у називима улица у Београду.
+                    </p>
+                    <p>
+                        Иницијатива је настала у овиру OpenStreetMap Srbija и њених волонтера Дине Јовановић и Бранка Кокановића.
+                    </p>
+
+                    <hr>
+
+                    <p class="mb-0 small">
+                        <a target="_blank"
+                            href="https://github.com/openknowledgebe/equalstreetnames/tree/master/static">
+                            Скупови података</a>, изворни код и документација је доступна са <a target="_blank"
+                            href="https://github.com/openknowledgebe/equalstreetnames/#readme">GitHub-а</a>.<br>
+                        Веб сајт и процес обраде података је направио
+                        by <a target="_blank" href="https://openknowledge.be/">Open Knowledge Belgium</a>
+                        и <a target="_blank" href="https://geo6.be/">SPRL GEO-6 BVBA</a>.<br>
+                        За српски прилагодио Бранко кокановић.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-envelope"></i>
+                        Контакт
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Нашли сте грешку или желите да побољшате пројекат?<br>
+                        Желите ли да урадите EqualStreetNames пројекат у другом граду?<br>
+                        Желите да одржимо радионицу за Ваш град?<br>
+                    </p>
+
+                    <p>
+                        Контактирајте нас преко:
+                        <ul>
+                            <li>
+                                ОСМ Србија дописна група
+                                <a href="mailto:talk-rs@openstreetmap.org">talk-rs@openstreetmap.org</a>
+                            </li>
+                            <li>
+                                <a href="https://forum.openstreetmap.org/viewtopic.php?id=69015">Тема на ОСМ форуму</a> на којој можете да се јавите
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        Ако желите да контактирате оригиналне ауторе пројекта:
+                        <ul>
+                            <li>
+                                Open Knowledge Belgium:
+                                <a href="mailto:equalstreetnames@openknowledge.be">equalstreetnames@openknowledge.be</a>
+                            </li>
+                            <li>
+                                Noms Peut-Être:
+                                <a href="mailto:nomspeutetre@gmail.com">nomspeutetre@gmail.com</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="../../../../resources/index.ts"></script>
+    <script>
+      app.center = [20.4244, 44.8137];
+      app.zoom = 11;
+      app.bbox = [20.22290, 44.68811, 20.62407, 44.94272];
+      app.countries = "sr";
+      app.style = "mapbox://styles/stalker314314/ck8w75jo530qg1iqofl7fpww7";
+      app.init();
+    </script>
+    <!-- Fathom - simple website analytics - https://usefathom.com -->
+    <script>
+        (function (f, a, t, h, o, m) {
+            a[h] = a[h] || function () {
+                (a[h].q = a[h].q || []).push(arguments)
+            };
+            o = f.createElement('script'),
+                m = f.getElementsByTagName('script')[0];
+            o.async = 1; o.src = t; o.id = 'fathom-script';
+            m.parentNode.insertBefore(o, m)
+        })(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+        if (process.env.FATHOM_TOKEN) {
+            fathom('set', 'siteId', process.env.FATHOM_TOKEN);
+            fathom('trackPageview');
+        }
+    </script>
+    <!-- / Fathom -->
+</body>
+
+</html>
