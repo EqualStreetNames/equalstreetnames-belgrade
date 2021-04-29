@@ -74,6 +74,7 @@ name,source,gender,wikidata,type
 Александровачка,wikidata,,Q995091,way
 "Алексе Жујовића",wikidata,,Q61133677,way
 Алексиначка,wikidata,,Q966804,way
+"Алеја мира",wikidata,,Q454,way
 Алибунарска,wikidata,,Q648863,way
 Андријевачка,wikidata,,Q12626905,way
 Апатинска,wikidata,,Q372110,way
@@ -168,6 +169,7 @@ name,source,gender,wikidata,type
 Брезе,wikidata,,Q25243,way
 Брестова,wikidata,,Q131113,way
 "Бригадирска улица",wikidata,,Q41685,way
+Бриселска,wikidata,,Q239,way
 Бродска,wikidata,,Q11446,way
 Бруска,wikidata,,Q919617,way
 Будванска,wikidata,,Q174237,way
@@ -1103,7 +1105,6 @@ name,source,gender,wikidata,type
 "Александра Сунтурлића",,,,way
 "Алексе Бачванског",,,,way
 "Алексиначких рудара",,,,way
-"Алеја мира",,,,way
 Амадова,,,,way
 "Анастасије Спасић",,,,way
 "Андре Јовића",,,,way
@@ -1241,6 +1242,7 @@ name,source,gender,wikidata,type
 "Бранка Момирова улица 1.",,,,way
 "Бранка Плећаша",,,,way
 "Бранка Цветковића",,,,way
+"Бранка Шотре",wikidata,,,way
 "Браће Јелића",,,,way
 "Браће Јеремића",,,,way
 "Браће Абафи",,,,way
