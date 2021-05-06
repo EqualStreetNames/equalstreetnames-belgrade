@@ -105,7 +105,7 @@ name,source,gender,wikidata,type
 "Лоле Новаковић",wikidata,F,Q452792,way
 "Маге Магазиновић",wikidata,F,Q6729570,way
 "Малвине Хофман",wikidata,F,Q3844044,way
-"Маре Таборске",wikidata,F,Q24843257,way
+"Маре Таборске",wikidata,F,Q21548327,way
 "Марине Кољубајеве",wikidata,F,Q12754905,way
 "Маријане Грегоран",wikidata,F,Q12754936,way
 "Маријане Грегоран први пролаз",wikidata,F,Q12754936,way
@@ -298,7 +298,7 @@ name,source,gender,wikidata,type
 "Љубомира Ивковића-Шуце",wikidata,M,Q20435591,way
 "Љубомира Стојановића",wikidata,M,Q2760240,way
 "Људевита Посавског",wikidata,M,Q725901,way
-Његошева,wikidata,M,Q362081,way
+Његошева,wikidata,M,Q362081;Q540772,way
 Ћипикова,wikidata,M,Q1276843,way
 "Ћурчијина улица",wikidata,M,Q14849947,way
 Ћустендилска,wikidata,M,Q470074,way
@@ -445,6 +445,7 @@ name,source,gender,wikidata,type
 "Бранка Пешића",wikidata,M,Q1274624,way
 "Бранка Поповића",wikidata,M,Q11042561,way
 "Бранка Радичевића",wikidata,M,Q540772,way
+"Бранка Шотре",wikidata,M,Q11250668,way
 "Бранка Шљивића",wikidata,M,Q12749341,way
 "Бранке Ђукић",wikidata,M,Q16083094,way
 "Бранков мост",wikidata,M,Q540772,way
@@ -782,7 +783,7 @@ name,source,gender,wikidata,type
 "Душана Кведера",wikidata,M,Q13566412,way
 "Душана Крстића",wikidata,M,Q61133483,way
 "Душана Матића",wikidata,M,Q2177394,way
-"Душана Милошевића",wikidata,M,Q2068173,way
+"Душана Милошевића",wikidata,M,Q1006545;Q2068173,way
 "Душана Поповића",wikidata,M,Q12956912,way
 "Душана Прелевића",wikidata,M,Q5317744,way
 "Душана Пурића",wikidata,M,Q12751359,way
@@ -820,6 +821,7 @@ name,source,gender,wikidata,type
 "Жикице Јовановића Шпанца",wikidata,M,Q1280992,way
 "Жоржа Клемансоа",wikidata,M,Q171730,way
 "Жупана Властимира",wikidata,M,Q225634,way
+"Жупана Прибила",wikidata,M,Q19666370,way
 "Жупана Часлава",wikidata,M,Q337693,way
 "Завише Црног",wikidata,M,Q167778,way
 "Зарије Вујошевића",wikidata,M,Q12751881,way
@@ -922,7 +924,7 @@ name,source,gender,wikidata,type
 Коперникова,wikidata,M,Q619,way
 "Копитарева градина",wikidata,M,Q84444,way
 Корбизијеова,wikidata,M,Q4724,way
-Кордунашка,wikidata,M,Q12757153,way
+Кордунашка,wikidata,M,Q12757153;Q1784321,way
 "Корнелија Станковића",wikidata,M,Q751811,way
 Кортесарова,wikidata,M,Q174210,way
 "Косанчићев венац",wikidata,M,Q15240326,way
@@ -1300,7 +1302,7 @@ name,source,gender,wikidata,type
 Пастернакова,wikidata,M,Q41223,way
 Пастерова,wikidata,M,Q529,way
 "Патриса Лумумбе",wikidata,M,Q161672,way
-"Патријарха Јоаникија",wikidata,M,Q12758643,way
+"Патријарха Јоаникија",wikidata,M,Q12758643;Q141346,way
 "Патријарха Варнаве",wikidata,M,Q1281645,way
 "Патријарха Гаврила",wikidata,M,Q878894,way
 "Патријарха Димитрија",wikidata,M,Q1282567,way
@@ -1394,7 +1396,7 @@ name,source,gender,wikidata,type
 "Радивоја Лоле Ђукића",wikidata,M,Q12758070,way
 "Радована Драговића",wikidata,M,Q12758117,way
 "Радована Самарџића",wikidata,M,Q15715384,way
-"Радомира Рељића",wikidata,M,Q16085645,way
+"Радомира Рељића",wikidata,M,Q7281549,way
 "Радослава Грујића",wikidata,M,Q12758131,way
 "Радоја Дакића",wikidata,M,Q1564150,way
 "Радоја Домановића",wikidata,M,Q1280278,way
@@ -1440,7 +1442,7 @@ name,source,gender,wikidata,type
 "Саве Ковачевића улица 1.",wikidata,M,Q821495,way
 "Саве Ковачевића улица 2.",wikidata,M,Q821495,way
 "Саве Ковачевића улица 3.",wikidata,M,Q821495,way
-"Саве Машковића",wikidata,M,Q12758507,way
+"Саве Машковића",wikidata,M,Q12758507;Q523698,way
 "Саве Текелије",wikidata,M,Q1564949,way
 "Саве Шумановића",wikidata,M,Q726025,way
 "Садика Рамиза",wikidata,M,Q1568696,way
