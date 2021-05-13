@@ -650,7 +650,6 @@ name,source,gender,wikidata,type
 "Господар Јевремова",wikidata,M,Q749422,way
 "Господар Јованова",wikidata,M,Q3187162,way
 "Господара Вучића",wikidata,M,Q3511189,way
-Грамшијева,wikidata,M,Q4604,way
 "Грге Јанкеса",wikidata,M,Q1563528,way
 "Гргура Нинског",wikidata,M,Q965583,way
 "Григора Витеза",wikidata,M,Q1254579,way
@@ -856,10 +855,8 @@ name,source,gender,wikidata,type
 "Ивана Капистрана",wikidata,M,Q310359,way
 "Ивана Кнежевића",wikidata,M,Q12752134,way
 "Ивана Марковића Ирца",wikidata,M,Q12752141,way
-"Ивана Милутиновића",wikidata,M,Q1280534,way
 "Ивана Радовића",wikidata,M,Q13566439,way
 "Ивана Сарића",wikidata,M,Q744638,way
-"Иве Андрића",wikidata,M,Q47561,way
 "Иве Војновића",wikidata,M,Q553440,way
 "Иве Маринковића",wikidata,M,Q15150346,way
 "Игора Васиљева",wikidata,M,Q20435382,way
@@ -920,7 +917,6 @@ name,source,gender,wikidata,type
 "Константина Кавафија",wikidata,M,Q216980,way
 "Константина Симонова",wikidata,M,Q44695,way
 "Константина Филозофа",wikidata,M,Q1782745,way
-Конфучијева,wikidata,M,Q4604,way
 Коперникова,wikidata,M,Q619,way
 "Копитарева градина",wikidata,M,Q84444,way
 Корбизијеова,wikidata,M,Q4724,way
@@ -1183,6 +1179,7 @@ name,source,gender,wikidata,type
 "Михајла Бате Паскаљевића",wikidata,M,Q1563227,way
 "Михајла Валтровића",wikidata,M,Q12755604,way
 "Михајла Костића Пљаке",wikidata,M,Q11133229,way
+"Михајла Микашиновића",wikidata,M,Q61128025,way
 "Михајла Пупина",wikidata,M,Q196287,way
 Михизова,wikidata,M,Q12749205,way
 "Миховила Логара",wikidata,M,Q169445,way
@@ -1654,7 +1651,6 @@ name,source,gender,wikidata,type
 "Франа Левстика",wikidata,M,Q15800,way
 "Франца Бевка",wikidata,M,Q710497,way
 "Франца Кафке",wikidata,M,Q905535,way
-"Франца Прешерна",wikidata,M,Q1031,way
 "Фрање Јенча",wikidata,M,Q3082465,way
 "Фрање Клуза",wikidata,M,Q2614258,way
 "Фрање Михалића",wikidata,M,Q1366566,way
@@ -1720,3 +1716,5 @@ name,source,gender,wikidata,type
 Штросмајерова,wikidata,M,Q434257,way
 Штурмова,wikidata,M,Q149281,way
 Шупљикчева,wikidata,M,Q377783,way
+Грамшијева,wikidata,MX,Q4604,way
+Конфучијева,wikidata,MX,Q4604,way
