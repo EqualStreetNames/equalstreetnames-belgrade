@@ -650,6 +650,7 @@ name,source,gender,wikidata,type
 "Господар Јевремова",wikidata,M,Q749422,way
 "Господар Јованова",wikidata,M,Q3187162,way
 "Господара Вучића",wikidata,M,Q3511189,way
+Грамшијева,wikidata,M,Q4604,way
 "Грге Јанкеса",wikidata,M,Q1563528,way
 "Гргура Нинског",wikidata,M,Q965583,way
 "Григора Витеза",wikidata,M,Q1254579,way
@@ -917,6 +918,7 @@ name,source,gender,wikidata,type
 "Константина Кавафија",wikidata,M,Q216980,way
 "Константина Симонова",wikidata,M,Q44695,way
 "Константина Филозофа",wikidata,M,Q1782745,way
+Конфучијева,wikidata,M,Q4604,way
 Коперникова,wikidata,M,Q619,way
 "Копитарева градина",wikidata,M,Q84444,way
 Корбизијеова,wikidata,M,Q4724,way
@@ -1716,5 +1718,3 @@ name,source,gender,wikidata,type
 Штросмајерова,wikidata,M,Q434257,way
 Штурмова,wikidata,M,Q149281,way
 Шупљикчева,wikidata,M,Q377783,way
-Грамшијева,wikidata,MX,Q4604,way
-Конфучијева,wikidata,MX,Q4604,way
