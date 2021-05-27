@@ -383,7 +383,6 @@ name,source,gender,wikidata,type
 "Бана Иваниша",wikidata,M,Q347090,way
 Батутова,wikidata,M,Q11781156,way
 "Бахтијара Вагабзаде",wikidata,M,Q2320387,way
-"Баје Пивљанина",wikidata,M,Q4075652,way
 Бајронова,wikidata,M,Q5679,way
 Бекерелова,wikidata,M,Q41269,way
 Белимарковићева,wikidata,M,Q337713,way
@@ -1257,6 +1256,7 @@ name,source,gender,wikidata,type
 "Николе Тесле",wikidata,M,Q9036,way
 "Никше Стипчевића",wikidata,M,Q955568,way
 "Нилса Бора",wikidata,M,Q7085,way
+"Нићифора Дучића",wikidata,M,Q7042322,way
 "Нићифора Нинковића",wikidata,M,Q12756306,way
 "Новака Новака",wikidata,M,Q1254252,way
 "Новице Тадића",wikidata,M,Q3094435,way
@@ -1349,6 +1349,7 @@ name,source,gender,wikidata,type
 "Пешачки пролаз Нушићева",wikidata,M,Q315136,way
 "Пеђе Милосављевића",wikidata,M,Q1562364,way
 "Пива Караматијевића",wikidata,M,Q12757756,way
+"Пивљанина Баја",wikidata,M,Q4075652,way
 "Пилота Михаила Петровића",wikidata,M,Q1509308,way
 Пинкијева,wikidata,M,Q703494,way
 Пиранделова,wikidata,M,Q1403,way
@@ -1630,7 +1631,7 @@ name,source,gender,wikidata,type
 "Трајка Рајковића",wikidata,M,Q1282809,way
 "Трајка Стаменковића",wikidata,M,Q12760175,way
 "Трг Бранка Радичевића",wikidata,M,Q540772,way
-"Трг Николе Пашића",wikidata,M,Q313843,relation
+"Трг Николе Пашића",wikidata,M,Q313843,relation+way
 "Триве Витасовића",wikidata,M,Q12760221,way
 "Трише Кацлеровића",wikidata,M,Q12760239,way
 Трстењакова,wikidata,M,Q5242106,way

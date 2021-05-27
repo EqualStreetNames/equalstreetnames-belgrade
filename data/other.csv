@@ -770,7 +770,7 @@ name,source,gender,wikidata,type
 Савска,wikidata,,Q14383,way
 "Савска магистрала",wikidata,,Q14383,way
 "Савска променада",wikidata,,Q14383,way
-"Савски трг",wikidata,,Q14383,relation
+"Савски трг",wikidata,,Q14383,relation+way
 Самошка,wikidata,,Q729158,way
 Санска,wikidata,,Q904765,way
 "Санстефанска улица",wikidata,,Q194113,way
@@ -859,7 +859,7 @@ name,source,gender,wikidata,type
 Текеришка,wikidata,,Q2063247,way
 Темеринска,wikidata,,Q579984,way
 Темишварска,wikidata,,Q83404,way
-Теразије,wikidata,,Q274153,relation
+Теразије,wikidata,,Q274153,relation+way
 "Теразијски тунел",wikidata,,Q948346,way
 Тетовска,wikidata,,Q157024,way
 Тиквешка,wikidata,,Q1376255,way
@@ -1539,7 +1539,6 @@ name,source,gender,wikidata,type
 "Докторке Изабеле Хатон",,,,way
 "Докторке Наде Петровић",,,,way
 Дол,,,,way
-Доласци,,,,way
 Долачка,,,,way
 Долењска,,,,way
 Долинска,,,,way
@@ -1987,7 +1986,6 @@ name,source,gender,wikidata,type
 Муминовачка,,,,way
 "Наредника Грујице Станковића",,,,way
 "Наредника Драгутина Радаковића",,,,way
-"Народног Фронта",,,,way
 "Насеље Економије бр 1",,,,way
 "Насеље Земун поље Мала пруга",,,,way
 "Насеље Земун поље Мала пруга други део",,,,way
