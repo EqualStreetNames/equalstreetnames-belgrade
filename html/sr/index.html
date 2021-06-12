@@ -18,45 +18,46 @@
         <div id="loader-status">Учитавање...</div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">EqualStreetNames.Belgrade</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://equalstreetnames.org/">EqualStreetNames.Belgrade</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" class="btn btn-primary" data-toggle="modal" href="#about">
-                        <i class="fas fa-info-circle"></i>
-                        О пројекту
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" class="btn btn-primary" data-toggle="modal" href="#contact">
-                        <i class="fas fa-envelope"></i>
-                        Контакт
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://github.com/openknowledgebe/equalstreetnames/">
-                        <i class="fab fa-github"></i>
-                        GitHub
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                        aria-haspopup="true" aria-expanded="false">Српски</a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="/en/index.html">English</a>
-                    </div>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" class="btn btn-primary" data-toggle="modal" href="#about">
+                            <i class="fas fa-info-circle"></i>
+                            О пројекту
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" class="btn btn-primary" data-toggle="modal" href="#contact">
+                            <i class="fas fa-envelope"></i>
+                            Контакт
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://github.com/EqualStreetNames/equalstreetnames/">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Српски</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="/en/index.html">English</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <main class="flex-fill">
-        <div id="map"></div>
+        <div id="map" data-style="mapbox://styles/stalker314314/ck8w75jo530qg1iqofl7fpww7"></div>
         <div id="chart-overlay" class="d-none d-sm-block">
             <div id="gender-chart">
                 <table id="gender-chart-legend" class="table table-borderless table-sm">
@@ -64,26 +65,26 @@
                         <tr class="gender-chart-label" data-gender="m">
                             <td class="text-center"><i class="fas fa-lg fa-mars"></i></td>
                             <td>Мушке</td>
-                            <td class="text-right gender-chart-count"></td>
-                            <td class="text-right gender-chart-pct"></td>
+                            <td class="text-end gender-chart-count"></td>
+                            <td class="text-end gender-chart-pct"></td>
                         </tr>
                         <tr class="gender-chart-label" data-gender="f">
                             <td class="text-center"><i class="fas fa-lg fa-venus"></i></td>
                             <td>Женске</td>
-                            <td class="text-right gender-chart-count"></td>
-                            <td class="text-right gender-chart-pct"></td>
+                            <td class="text-end gender-chart-count"></td>
+                            <td class="text-end gender-chart-pct"></td>
                         </tr>
                         <tr class="gender-chart-label" data-gender="mx">
                             <td class="text-center"><i class="fas fa-lg fa-transgender-alt"></i></td>
                             <td>Мушке (трансродне)</td>
-                            <td class="text-right gender-chart-count"></td>
-                            <td class="text-right gender-chart-pct"></td>
+                            <td class="text-end gender-chart-count"></td>
+                            <td class="text-end gender-chart-pct"></td>
                         </tr>
                         <tr class="gender-chart-label" data-gender="fx">
                             <td class="text-center"><i class="fas fa-lg fa-transgender-alt"></i></td>
                             <td>Женске (трансродне)</td>
-                            <td class="text-right gender-chart-count"></td>
-                            <td class="text-right gender-chart-pct"></td>
+                            <td class="text-end gender-chart-count"></td>
+                            <td class="text-end gender-chart-pct"></td>
                         </tr>
                     </tbody>
                 </table>
@@ -92,6 +93,7 @@
             <div id="count-information" class="small">
                 Од <span id="count-total"></span> улица, <span id="count-person"></span> носе имена по особи.
             </div>
+        </div>
     </main>
 
     <div id="about" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
@@ -102,9 +104,7 @@
                         <i class="fas fa-info-circle"></i>
                         О пројекту
                     </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h5>Чему EqualStreetNames.Belgrade?</h5>
@@ -154,8 +154,8 @@
                     <p class="mb-0 small">
                         <a target="_blank"
                             href="https://github.com/stalker314314/equalstreetnames-belgrade/">
-                          Скупови података</a>, <a target="_blank" href="https://github.com/openknowledgebe/equalstreetnames">изворни код</a>, <a target="_blank"
-                            href="https://github.com/openknowledgebe/equalstreetnames/#readme">документација</a>.<br>
+                          Скупови података</a>, <a target="_blank" href="https://github.com/EqualStreetNames/equalstreetnames">изворни код</a>, <a target="_blank"
+                            href="https://github.com/EqualStreetNames/equalstreetnames/#readme">документација</a>.<br>
                         Веб сајт и процес обраде података је направио
                         by <a target="_blank" href="https://openknowledge.be/">Open Knowledge Belgium</a>
                         и <a target="_blank" href="https://geo6.be/">SPRL GEO-6 BVBA</a>.<br>
@@ -174,9 +174,7 @@
                         <i class="fas fa-envelope"></i>
                         Контакт
                     </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <p>
@@ -216,14 +214,6 @@
     </div>
 
     <script src="../../../website/src/script/index.ts"></script>
-    <script>
-      app.center = [20.4244, 44.8137];
-      app.zoom = 11;
-      app.bbox = [20.22290, 44.68811, 20.62407, 44.94272];
-      app.countries = "sr";
-      app.style = "mapbox://styles/stalker314314/ck8w75jo530qg1iqofl7fpww7";
-      app.init();
-    </script>
 </body>
 
 </html>
