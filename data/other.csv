@@ -969,9 +969,9 @@ name,source,gender,wikidata,type
 Шумска,wikidata,,Q4421,way
 "21. маја",,,,way
 "Belgrade viewpoint",,,,way
-"Danila Vladisavljevića",,,,way
 "KartLand Beograd",,,,way
 "Motocross Track",,,,way
+Pit-stop,,,,way
 Šumadijska,,,,way
 Ђеновичка,,,,way
 Ђеравичка,,,,way
@@ -1457,6 +1457,7 @@ name,source,gender,wikidata,type
 Гњиланска,,,,way
 "Далматинске загоре",,,,way
 "Далматинских бригада",,,,way
+"Данила Владисављевића",,,,way
 Данилова,,,,way
 "Данице Антић",,,,way
 Данијелова,,,,way
@@ -2407,7 +2408,6 @@ name,source,gender,wikidata,type
 Топличина,,,,way
 Топчидерска,,,,way
 Торлачка,,,,way
-"Трг Драгана и Милене",,,,way
 "Трг Ослободилаца Жаркова",,,,way
 "Трг Славија",,,,way
 "Трећег дивизиона ПВО",,,,way
