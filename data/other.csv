@@ -324,6 +324,7 @@ name,source,gender,wikidata,type
 Дубљанска,wikidata,,Q3040545,way
 Дунавска,wikidata,,Q1653,way
 "Дунавски кеј",wikidata,,Q1653,way
+Дунђерска,wikidata,,Q12751313,way
 Дурмиторска,wikidata,,Q212836,way
 Душановачка,wikidata,,Q3041813,way
 Европска,wikidata,,Q46,way
@@ -837,6 +838,7 @@ name,source,gender,wikidata,type
 Темишварска,wikidata,,Q83404,way
 Теразије,wikidata,,Q274153,relation+way
 "Теразијски тунел",wikidata,,Q948346,way
+Терзија,wikidata,,Q85999743,way
 Тетовска,wikidata,,Q157024,way
 Тиквешка,wikidata,,Q1376255,way
 Тимочка,wikidata,,Q753919,way
@@ -971,7 +973,6 @@ name,source,gender,wikidata,type
 "KartLand Beograd",,,,way
 "Motocross Track",,,,way
 Pit-stop,,,,way
-Šumadijska,,,,way
 Ђеновичка,,,,way
 Ђеравичка,,,,way
 "Ђоке Богдановића",,,,way
