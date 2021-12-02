@@ -612,7 +612,6 @@ name,source,gender,wikidata,type
 Орачка,wikidata,,Q3214532,way
 Орловатска,wikidata,,Q1193012,way
 Орловска,wikidata,,Q2092297,way
-Осијечка,wikidata,,Q1640,way
 "Осме црногорске бригаде",wikidata,,Q16089218,way
 Острошка,wikidata,,Q1257434,way
 Охридска,wikidata,,Q1223508,way
@@ -970,10 +969,7 @@ name,source,gender,wikidata,type
 Шумска,wikidata,,Q4421,way
 "21. маја",,,,way
 "Belgrade viewpoint",,,,way
-Humska,,,,way
-Istarska,,,,way
 "KartLand Beograd",,,,way
-"Marinka Madžgalja",,,,way
 "Motocross Track",,,,way
 Pit-stop,,,,way
 Ђеновичка,,,,way
@@ -1795,6 +1791,7 @@ Pit-stop,,,,way
 "Лепосаве Миљковић",,,,way
 Летићева,,,,way
 Лешачка,,,,way
+Лешникова,,,,way
 Ливадска,,,,way
 Липак,,,,way
 Липар,,,,way
@@ -1885,6 +1882,7 @@ Pit-stop,,,,way
 "Милана Ђурића",,,,way
 "Милана Јовановића",,,,way
 "Милана Богдановића",,,,way
+"Милана Вујовића",,,,way
 "Милана Гајића",,,,way
 "Милана Глигоријевића",,,,way
 "Милана Глигоријевића први прилаз",,,,way
@@ -2148,7 +2146,6 @@ Pit-stop,,,,way
 "Пољопривредно добро тринаести мај",,,,way
 Права,,,,way
 "Прве балканске радио-антене",,,,way
-"Прве пруге",,,,way
 "Прве радио-станице",,,,way
 Првобораца,,,,way
 "Првог маја",,,,way

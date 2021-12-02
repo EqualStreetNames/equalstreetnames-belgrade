@@ -747,6 +747,7 @@ name,source,gender,wikidata,type
 "Драгана Лукића",wikidata,M,Q1272700,way
 "Драгана Максимовића",wikidata,M,Q1565010,way
 "Драгана Манцеа",wikidata,M,Q933281,way
+"Драгана Никитовића",wikidata,M,Q25462288,way
 "Драгана Ракића",wikidata,M,Q13566405,way
 "Драгана Сакана",wikidata,M,Q15410085,way
 "Драгише Брашована",wikidata,M,Q1273105,way
@@ -1005,7 +1006,6 @@ name,source,gender,wikidata,type
 "Максима Горког",wikidata,M,Q12706,way
 "Малог Радојице",wikidata,M,Q6743309,way
 "Манета Бајића",wikidata,M,Q2067061,way
-"Маринка Маџгаља",wikidata,M,Q1564965,way
 "Маринка Шебеза",wikidata,M,Q16085166,way
 "Марка Кончара-Буре",wikidata,M,Q34576,way
 "Марка Лека",wikidata,M,Q6771165,way
@@ -1370,6 +1370,7 @@ name,source,gender,wikidata,type
 Политова,wikidata,M,Q12755619,way
 "Поп Лукина",wikidata,M,Q12754673,way
 "Поручника Спасића и Машере",wikidata,M,Q1280056;Q1280314,way
+"Прве пруге",wikidata,M,Q1564965,way
 "Предрага Васића",wikidata,M,Q12959366,way
 "Предрага Лаковића",wikidata,M,Q2444746,way
 "Предрага Милојевића",wikidata,M,Q20437668,way
