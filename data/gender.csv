@@ -92,6 +92,7 @@ name,source,gender,wikidata,type
 "Кнегиње Љубице",wikidata,F,Q1272779,way
 "Кнегиње Анастасије",wikidata,F,Q151130,way
 "Кнегиње Зорке",wikidata,F,Q226738,way
+"Косаре Цветковић",wikidata,F,Q28807052,way
 "Краљице Јелене",wikidata,F,Q267773,way
 "Краљице Ане",wikidata,F,Q468663,way
 "Краљице Драге Обреновић",wikidata,F,Q255820,way
@@ -159,6 +160,7 @@ name,source,gender,wikidata,type
 "Персиде Миленковић",wikidata,F,Q954994,way
 "Плато Соје Јовановић",wikidata,F,Q12759102,way
 "Полексије Тодоровић",wikidata,F,Q28806164,way
+"Принцезе Оливере",wikidata,F,Q458610,way
 "Радмиле Савићевић",wikidata,F,Q2444244,way
 "Радојке Лакић",wikidata,F,Q2160017,way
 "Ребеке Вест",wikidata,F,Q236669,way
@@ -210,6 +212,7 @@ name,source,gender,wikidata,type
 "Ђуре Гавеле",wikidata,M,Q12747520,way
 "Ђуре Даничића",wikidata,M,Q342145,way
 "Ђуре Курепе",wikidata,M,Q1288394,way
+"Ђурићев пролаз",wikidata,M,Q12755602,way
 "Ђурђа Балшића",wikidata,M,Q2592835,way
 Ђушина,wikidata,M,Q16083207,way
 "Јакова Хлипчијева",wikidata,M,Q12747564,way
@@ -377,7 +380,6 @@ name,source,gender,wikidata,type
 "Арчибалда Рајса",wikidata,M,Q77782,way
 "Атанасија Николића",wikidata,M,Q12748556,way
 "Атанасија Пуље",wikidata,M,Q16081129,way
-"Аугуста Цесарца",wikidata,M,Q761055,way
 "Аугуста Шеное",wikidata,M,Q347672,way
 "Ахмеда Адемовића",wikidata,M,Q15964484,way
 "Аце Симића",wikidata,M,Q12748225,way
@@ -812,7 +814,6 @@ name,source,gender,wikidata,type
 "Епископа Николаја",wikidata,M,Q566764,way
 "Есад Пашина",wikidata,M,Q366796,way
 "Еугена Савојског",wikidata,M,Q152428,way
-"Жарка Јовановића",wikidata,M,Q3594416,way
 "Жарка Вуковића Пуцара",wikidata,M,Q12751687,way
 "Жарка Миладиновића",wikidata,M,Q16098899,way
 "Жарка Трпковића",wikidata,M,Q25463897,way
@@ -908,6 +909,7 @@ name,source,gender,wikidata,type
 "Кнеза Милоша",wikidata,M,Q297557,way
 "Кнеза Михаила",wikidata,M,Q434252,way
 "Кнеза Мутимира",wikidata,M,Q715936,way
+"Кнеза Павла Карађорђевића",wikidata,M,Q313128,way
 "Кнеза Паскача",wikidata,M,Q7142209,way
 "Кнеза Симе Марковића",wikidata,M,Q12758831,way
 "Кнеза од Семберије",wikidata,M,Q12752134,way
@@ -1012,6 +1014,7 @@ name,source,gender,wikidata,type
 "Маринка Шебеза",wikidata,M,Q16085166,way
 "Марка Кончара-Буре",wikidata,M,Q34576,way
 "Марка Лека",wikidata,M,Q6771165,way
+"Марка Марковића",wikidata,M,Q12754963,way
 "Марка Милановића",wikidata,M,Q16086345,way
 "Марка Миљанова",wikidata,M,Q3132479,way
 "Марка Орешковића",wikidata,M,Q1264428,way
@@ -1031,9 +1034,9 @@ name,source,gender,wikidata,type
 Масарикова,wikidata,M,Q78492,way
 Матавуљева,wikidata,M,Q1275981,way
 "Мате Милошевића",wikidata,M,Q11142270,way
+"Мате Парлова",wikidata,M,Q381708,way
 "Матије Бана",wikidata,M,Q2605633,way
 "Матије Вуковића",wikidata,M,Q6787470,way
-"Матије Гупца",wikidata,M,Q715968,way
 "Матије Иванића",wikidata,M,Q6540630,way
 "Махмута Ибрахимпашића",wikidata,M,Q4195397,way
 Мајаковског,wikidata,M,Q132964,way
@@ -1260,6 +1263,7 @@ name,source,gender,wikidata,type
 "Николе Спасића",wikidata,M,Q16086743,way
 "Николе Стефановића",wikidata,M,Q12756243,way
 "Николе Тесле",wikidata,M,Q9036,way
+"Никше Градија",wikidata,M,Q18164906,way
 "Никше Стипчевића",wikidata,M,Q955568,way
 "Нилса Бора",wikidata,M,Q7085,way
 "Нићифора Дучића",wikidata,M,Q7042322,way
@@ -1333,7 +1337,6 @@ name,source,gender,wikidata,type
 "Петра Бајаловића",wikidata,M,Q3376329,way
 "Петра Добровића",wikidata,M,Q838985,way
 "Петра Драпшина",wikidata,M,Q35892,way
-"Петра Зрињског",wikidata,M,Q508799,way
 "Петра Колендића",wikidata,M,Q15989225,way
 "Петра Кочића",wikidata,M,Q715945,way
 "Петра Коњовића",wikidata,M,Q1289465,way
@@ -1600,7 +1603,6 @@ name,source,gender,wikidata,type
 "Стјепана Љубише",wikidata,M,Q2759551,way
 "Стјепана Филиповића",wikidata,M,Q458061,way
 Сундечићева,wikidata,M,Q3436091,way
-Супилова,wikidata,M,Q692107,way
 Тавчарева,wikidata,M,Q12789184,way
 Тагореова,wikidata,M,Q7241,way
 "Тадеуша Кошћушка",wikidata,M,Q191479,way
@@ -1692,7 +1694,9 @@ name,source,gender,wikidata,type
 Цамблакова,wikidata,M,Q723304,way
 Цанкарева,wikidata,M,Q15809,way
 "Цара Јована Црног",wikidata,M,Q872296,way
+"Цара Јустинијана Првог",wikidata,M,Q41866,way
 "Цара Душана",wikidata,M,Q207303,way
+"Цара Ираклија",wikidata,M,Q41852,way
 "Цара Лазара",wikidata,M,Q310197,way
 "Цара Николаја Другог",wikidata,M,Q40787,way
 "Цара Уроша",wikidata,M,Q279693,way
@@ -1724,6 +1728,5 @@ name,source,gender,wikidata,type
 Шејкина,wikidata,M,Q6526516,way
 Шилерова,wikidata,M,Q22670,way
 Шолина,wikidata,M,Q24008638,way
-Штросмајерова,wikidata,M,Q434257,way
 Штурмова,wikidata,M,Q149281,way
 Шупљикчева,wikidata,M,Q377783,way
