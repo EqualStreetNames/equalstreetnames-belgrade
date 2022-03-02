@@ -74,7 +74,7 @@ name,source,gender,wikidata,type
 Андријевачка,wikidata,,Q12626905,way
 Апатинска,wikidata,,Q372110,way
 Арадска,wikidata,,Q173591,way
-Ариљачка,wikidata,,Q3304973;Q617343,way
+Ариљачка,wikidata,,Q617343,way
 Ариљска,wikidata,,Q922060,way
 Астрономска,wikidata,,Q2346025,way
 Атика,wikidata,,Q122443,way
@@ -965,6 +965,7 @@ name,source,gender,wikidata,type
 "Belgrade viewpoint",,,,way
 "KartLand Beograd",,,,way
 "Motocross Track",,,,way
+Nasip,,,,way
 Pit-stop,,,,way
 Ђеновичка,,,,way
 Ђеравичка,,,,way
@@ -1315,7 +1316,6 @@ Pit-stop,,,,way
 Великозабранска,,,,way
 "Велисава Вуловића",,,,way
 "Велислава Вуловића",,,,way
-"Велише Лековића",,,,way
 "Вере Ђукић",,,,way
 "Вере Димитријевић",,,,way
 Весларска,,,,way
@@ -1998,7 +1998,7 @@ Pit-stop,,,,way
 "Незнаног јунака",,,,way
 "Немировић Данченка",,,,way
 "Ненада Голубовића",,,,way
-"Ненадовићева улица",,,,way
+Ненадовићева,,,,way
 "Несторовићева улица",,,,way
 "Ника Стругара први прилаз",,,,way
 Никиначка,,,,way
