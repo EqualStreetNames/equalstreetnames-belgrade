@@ -1,5 +1,4 @@
 name,source,gender,wikidata,type
-"Сквер Милене и Гаге",wikidata,+,Q917301;Q1252125,way
 "Ђуке Динић",wikidata,F,Q4161934,way
 "Ђурђевке Чакаревић",wikidata,F,Q12747527,way
 "Јелене Ћетковић",wikidata,F,Q6663953,way
@@ -160,7 +159,6 @@ name,source,gender,wikidata,type
 "Оливере Марковић",wikidata,F,Q299979,way
 "Оље Ивањицки",wikidata,F,Q461046,way
 "Персиде Миленковић",wikidata,F,Q954994,way
-"Плато Соје Јовановић",wikidata,F,Q12759102,way
 "Полексије Тодоровић",wikidata,F,Q28806164,way
 "Принцезе Оливере",wikidata,F,Q458610,way
 "Радмиле Савићевић",wikidata,F,Q2444244,way
@@ -370,6 +368,7 @@ name,source,gender,wikidata,type
 "Андрије Хабуша",wikidata,M,Q92601820,way
 "Андрићев венац",wikidata,M,Q47561,way
 "Анри Матиса",wikidata,M,Q5589,way
+"Анрија Жамеа",wikidata,M,Q112395325,way
 "Анте Богићевића",wikidata,M,Q12748390,way
 "Антона Ашкерца",wikidata,M,Q561804,way
 "Антона Чехова",wikidata,M,Q5685,way
@@ -534,6 +533,7 @@ name,source,gender,wikidata,type
 "Владе Дивљана",wikidata,M,Q7938171,way
 "Владе Илића",wikidata,M,Q12749848,way
 "Владе Обрадовића",wikidata,M,Q13554292,way
+"Владете Јеротића",wikidata,M,Q1255855,way
 "Владете Поповића Пинецког",wikidata,M,Q16088573,way
 Владетина,wikidata,M,Q2790626,way
 "Владике Данила",wikidata,M,Q2281428,way
@@ -609,7 +609,6 @@ name,source,gender,wikidata,type
 "Војислава Нановића",wikidata,M,Q25753444,way
 "Војислава Радовановића",wikidata,M,Q12749962,way
 "Војислава Ракоњца",wikidata,M,Q12749963,way
-"Вука Бојовића",wikidata,M,Q12750026,way
 "Вука Врчевића",wikidata,M,Q1260017,way
 "Вука Караџића",wikidata,M,Q202815,way
 "Вука Мандушића",wikidata,M,Q1255966,way
@@ -887,7 +886,7 @@ name,source,gender,wikidata,type
 "Исмета Мујезиновића",wikidata,M,Q117267,way
 Ичкова,wikidata,M,Q2986145,way
 "Казимира Маљевића",wikidata,M,Q130777,way
-Капабланикина,wikidata,M,Q160702,way
+Капабланкина,wikidata,M,Q160702,way
 "Капетан Мишина",wikidata,M,Q6885325,way
 "Капетана Милоша Жуњића",wikidata,M,Q16098624,way
 "Капетана Радича Петровића",wikidata,M,Q12758092,way
@@ -1368,13 +1367,8 @@ name,source,gender,wikidata,type
 Пинкијева,wikidata,M,Q703494,way
 Пиранделова,wikidata,M,Q1403,way
 Пироћанчева,wikidata,M,Q2045522,way
-"Плато Ђоке Вјештице",wikidata,M,Q12747477,way
 "Плато Александра Николића",wikidata,M,Q1282797,way
-"Плато Богдана Бабића",wikidata,M,Q20434762,way
-"Плато Димитрија Туцовића",wikidata,M,Q905535,way
-"Плато Ненада Радуловића – Неше Лептира",wikidata,M,Q6991484,way
 "Плато Раше Ливаде",wikidata,M,Q25464572,way
-"Плато Раше Попова",wikidata,M,Q11203046,way
 "Плато Слободана Јовановића",wikidata,M,Q89188,way
 Подруговићева,wikidata,M,Q478851,way
 Поенкареова,wikidata,M,Q191974,way
@@ -1525,7 +1519,6 @@ name,source,gender,wikidata,type
 Синђелићева,wikidata,M,Q692749,way
 "Синђелићево сокаче",wikidata,M,Q692749,way
 "Сквер Моме Капора",wikidata,M,Q976238,relation
-"Сквер Слободана Марковића",wikidata,M,Q3486742,way
 Скендербегова,wikidata,M,Q160614,way
 Скерлићева,wikidata,M,Q1278008,way
 "Славише Вајнера",wikidata,M,Q4102497,way
