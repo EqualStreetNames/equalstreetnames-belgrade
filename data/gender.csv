@@ -170,7 +170,6 @@ name,source,gender,wikidata,type
 "Светлане Велмар Јанковић",wikidata,F,Q385880,way
 "Сестара Јанковић",wikidata,F,Q31183660,way
 Симонидина,wikidata,F,Q469013,way
-"Сквер Мире Траиловић",wikidata,F,Q1257130,way
 "Славке Јеринић",wikidata,F,Q12758919,way
 "Славке Томић",wikidata,F,Q31181542,way
 "Слободанке Данке Савић",wikidata,F,Q25460429,way
@@ -435,6 +434,7 @@ name,source,gender,wikidata,type
 "Бохумила Храбала",wikidata,M,Q242130,way
 "Бошка Бухе",wikidata,M,Q1280823,way
 "Бошка Деснице",wikidata,M,Q12628214,way
+"Бошка Токина",wikidata,M,Q94280456,way
 "Бојана Ступице",wikidata,M,Q1260371,way
 "Бране Петровића",wikidata,M,Q12749298,way
 "Бране Црнчевића",wikidata,M,Q521540,way
@@ -967,7 +967,7 @@ name,source,gender,wikidata,type
 "Краља Николе",wikidata,M,Q283255,way
 "Краља Остоје",wikidata,M,Q2578848,way
 "Краља Петра",wikidata,M,Q211827,way
-"Краља Петра првог",wikidata,M,Q211827,way
+"Краља Петра Првог",wikidata,M,Q211827,way
 "Краља Радослава",wikidata,M,Q355911,way
 "Краља Стефана Томаша",wikidata,M,Q560010,way
 "Краља Уроша првог",wikidata,M,Q73810,way
@@ -1369,7 +1369,6 @@ name,source,gender,wikidata,type
 Пироћанчева,wikidata,M,Q2045522,way
 "Плато Александра Николића",wikidata,M,Q1282797,way
 "Плато Раше Ливаде",wikidata,M,Q25464572,way
-"Плато Слободана Јовановића",wikidata,M,Q89188,way
 Подруговићева,wikidata,M,Q478851,way
 Поенкареова,wikidata,M,Q191974,way
 "Пола Гогена",wikidata,M,Q37693,way
