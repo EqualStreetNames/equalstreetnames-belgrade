@@ -608,6 +608,7 @@ name,source,gender,wikidata,type
 Ораховска,wikidata,,Q2453469,way
 Орачка,wikidata,,Q3214532,way
 Орловатска,wikidata,,Q1193012,way
+"Орловића Павла",wikidata,,Q7155922,way
 Орловска,wikidata,,Q2092297,way
 "Осме црногорске бригаде",wikidata,,Q16089218,way
 Острошка,wikidata,,Q1257434,way
@@ -964,10 +965,8 @@ name,source,gender,wikidata,type
 Шумарице,wikidata,,Q2371121,way
 Шумска,wikidata,,Q4421,way
 "21. маја",,,,way
-"Belgrade viewpoint",,,,way
-"Motocross Track",,,,way
-Pit-stop,,,,way
-"nekadašnja Pruga uskog koloseka",,,,way
+"Mirijevski Venac",,,,way
+"nekadašnja pruga uskog koloseka Beograd–Obrenovac",,,,way
 Ђеновичка,,,,way
 Ђеравичка,,,,way
 "Ђоке Богдановића",,,,way
@@ -1048,7 +1047,6 @@ Pit-stop,,,,way
 "Јована Секулића",,,,way
 "Јована Тодоровића",,,,way
 Јованичка,,,,way
-"Јованке Јефтановић",,,,way
 "Јованке Бончић",,,,way
 "Јове Деспотовића",,,,way
 "Јове Илића",,,,way
@@ -1156,6 +1154,7 @@ Pit-stop,,,,way
 "Беларица нова 61.",,,,way
 "Беларица нова 62.",,,,way
 "Беларица нова 63.",,,,way
+"Белграде виеwпоинт",,,,way
 "Белегишка други део",,,,way
 "Белегишка први део",,,,way
 "Белегишка трећи део",,,,way
@@ -2009,6 +2008,7 @@ Pit-stop,,,,way
 Моравска,,,,way
 Морињска,,,,way
 Мосорска,,,,way
+"Мотокрос стаза",,,,way
 "Мраовића сокаче",,,,way
 "Мрциниште нова 28",,,,way
 Муминовачка,,,,way
@@ -2056,7 +2056,9 @@ Pit-stop,,,,way
 "Нова 110",,,,way
 "Нова 113.",,,,way
 "Нова 114",,,,way
+"Нова 17",,,,way
 "Нова 2",,,,way
+"Нова 47",,,,way
 "Нова 501",,,,way
 "Новака Атанацковића",,,,way
 Новакова,,,,way
@@ -2147,6 +2149,7 @@ Pit-stop,,,,way
 Пешчарска,,,,way
 "Пеђа Леовца",,,,way
 "Пилота Ратка Јовановића",,,,way
+Пит-стоп,,,,way
 Пиљарска,,,,way
 Пландишка,,,,way
 "Платанов хлад",,,,way
