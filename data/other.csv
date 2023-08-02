@@ -749,7 +749,7 @@ name,source,gender,wikidata,type
 "Савски трг",wikidata,,Q14383,relation+way
 Самошка,wikidata,,Q729158,way
 Санска,wikidata,,Q904765,way
-"Санстефанска улица",wikidata,,Q194113,way
+Санстефанска,wikidata,,Q194113,way
 Санџачка,wikidata,,Q579132,way
 Сарајевска,wikidata,,Q11194,way
 Сајџијска,wikidata,,Q157798,way
@@ -964,6 +964,8 @@ name,source,gender,wikidata,type
 Шумарице,wikidata,,Q2371121,way
 Шумска,wikidata,,Q4421,way
 "21. маја",,,,way
+"Banjica 2",,,,way
+"Kumodraško groblje",,,,way
 "Mirijevski Venac",,,,way
 "nekadašnja pruga uskog koloseka Beograd–Obrenovac",,,,way
 Ђеновичка,,,,way
@@ -1264,6 +1266,7 @@ name,source,gender,wikidata,type
 "Браће Фогл",,,,way
 "Браће Шкеровић",,,,way
 Бреговита,,,,way
+Бреза,,,,way
 "Бресквин цвет",,,,way
 Брестовачка,,,,way
 Брзакова,,,,way
@@ -2187,6 +2190,7 @@ name,source,gender,wikidata,type
 "Првог маја",,,,way
 "Првог новембра",,,,way
 "Првог сремског одреда",,,,way
+"Првомајско сокаче",,,,way
 Прегревица,,,,way
 "Предрага Тасовца",,,,way
 "Предрага Томића",,,,way
@@ -2275,6 +2279,7 @@ name,source,gender,wikidata,type
 "Савски насип",,,,way
 "Савских аласа",,,,way
 "Савско шеталиште",,,,way
+"Саобраћајница Т7",,,,way
 Сарачка,,,,way
 "Саше Симеуновића",,,,way
 "Саше Филиповића",,,,way
