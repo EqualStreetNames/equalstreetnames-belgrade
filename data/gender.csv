@@ -161,6 +161,7 @@ name,source,gender,wikidata,type
 "Оливере Марковић",wikidata,F,Q299979,way
 "Оље Ивањицки",wikidata,F,Q461046,way
 "Персиде Миленковић",wikidata,F,Q954994,way
+"Плато Соје Јовановић",wikidata,F,Q12759102,way
 "Полексије Тодоровић",wikidata,F,Q28806164,way
 "Принцезе Оливере",wikidata,F,Q458610,way
 "Радмиле Савићевић",wikidata,F,Q2444244,way
@@ -172,6 +173,7 @@ name,source,gender,wikidata,type
 "Светлане Велмар Јанковић",wikidata,F,Q385880,way
 "Сестара Јанковић",wikidata,F,Q31183660,way
 Симонидина,wikidata,F,Q469013,way
+"Сквер Мире Траиловић",wikidata,F,Q1257130,way
 "Славке Јеринић",wikidata,F,Q12758919,way
 "Славке Томић",wikidata,F,Q31181542,way
 "Слободанке Данке Савић",wikidata,F,Q25460429,way
@@ -1035,6 +1037,7 @@ name,source,gender,wikidata,type
 "Марка Челебоновића",wikidata,M,Q2742423,way
 "Марка Шагала",wikidata,M,Q93284,way
 Маркесова,wikidata,M,Q5878,way
+"Марконијева џада",wikidata,M,Q3486742,way
 "Мартина Лутера Кинга",wikidata,M,Q8027,way
 Марулићева,wikidata,M,Q336571,way
 "Маршала Бирјузова",wikidata,M,Q48055,way
@@ -1371,8 +1374,13 @@ name,source,gender,wikidata,type
 Пинкијева,wikidata,M,Q703494,way
 Пиранделова,wikidata,M,Q1403,way
 Пироћанчева,wikidata,M,Q2045522,way
+"Плато Ђоке Вјештице",wikidata,M,Q12747477,way
 "Плато Александра Николића",wikidata,M,Q1282797,way
+"Плато Богдана Бабића",wikidata,M,Q20434762,way
+"Плато Димитрија Туцовића",wikidata,M,Q905535,way
+"Плато Ненада Радуловића – Неше Лептира",wikidata,M,Q6991484,way
 "Плато Раше Ливаде",wikidata,M,Q25464572,way
+"Плато Слободана Јовановића",wikidata,M,Q89188,way
 Подруговићева,wikidata,M,Q478851,way
 Поенкареова,wikidata,M,Q191974,way
 "Пола Гогена",wikidata,M,Q37693,way
@@ -1523,6 +1531,8 @@ name,source,gender,wikidata,type
 Синђелићева,wikidata,M,Q692749,way
 "Синђелићево сокаче",wikidata,M,Q692749,way
 "Сквер Моме Капора",wikidata,M,Q976238,relation
+"Сквер Слободана Марковића",wikidata,M,Q3486742,way
+"Сквер деспота Стефана",wikidata,M,Q336531,relation
 Скендербегова,wikidata,M,Q160614,way
 Скерлићева,wikidata,M,Q1278008,way
 "Славише Вајнера",wikidata,M,Q4102497,way
