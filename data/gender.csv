@@ -245,6 +245,7 @@ name,source,gender,wikidata,type
 "Јована Бијелића",wikidata,M,Q1564741,way
 "Јована Бошковића",wikidata,M,Q28467845,way
 "Јована Бранковића",wikidata,M,Q1959796,way
+"Јована Бранковића 2. део",wikidata,M,Q1959796,way
 "Јована Бранковића први део",wikidata,M,Q1959796,way
 "Јована Глигоријевића",wikidata,M,Q12747725,way
 "Јована Деретића",wikidata,M,Q12957749,way
@@ -664,7 +665,6 @@ name,source,gender,wikidata,type
 "Господара Вучића",wikidata,M,Q3511189,way
 Грамшијева,wikidata,M,Q4604,way
 "Грге Јанкеса",wikidata,M,Q1563528,way
-"Гргура Нинског",wikidata,M,Q965583,way
 "Григора Витеза",wikidata,M,Q1254579,way
 "Григорија Божовића",wikidata,M,Q12750540,way
 "Грује Мишковића",wikidata,M,Q12750569,way
@@ -900,7 +900,7 @@ name,source,gender,wikidata,type
 "Каплара Момчила Гаврића",wikidata,M,Q12755708,way
 "Карађорђев трг",wikidata,M,Q315172,way
 Карађорђева,wikidata,M,Q315172,way
-Карнеџијева,wikidata,M,Q484265,way
+Карнегијева,wikidata,M,Q484265,way
 Карпошева,wikidata,M,Q1289578,way
 Катанићева,wikidata,M,Q56683342,way
 Кашиковићева,wikidata,M,Q12756226,way
@@ -977,7 +977,7 @@ name,source,gender,wikidata,type
 "Краља Петра Првог",wikidata,M,Q211827,way
 "Краља Радослава",wikidata,M,Q355911,way
 "Краља Стефана Томаша",wikidata,M,Q560010,way
-"Краља Уроша првог",wikidata,M,Q73810,way
+"Краља Уроша Првог",wikidata,M,Q73810,way
 "Краљевића Марка",wikidata,M,Q316462,way
 "Крешимира Ћосића",wikidata,M,Q435875,way
 "Крешимира Барановића",wikidata,M,Q1279978,way
