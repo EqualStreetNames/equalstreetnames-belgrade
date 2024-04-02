@@ -1693,8 +1693,8 @@ name,source,gender,wikidata,type
 "Хајдук Вељкова",wikidata,M,Q701281,way
 "Хајдук Вељково сокаче",wikidata,M,Q701281,way
 "Хајдук Станкова",wikidata,M,Q85989430,way
-"Хаџи Ђерина",wikidata,M,Q16380515,way
 "Хаџи Рувимова",wikidata,M,Q13567561,way
+Хаџи-Ђерина,wikidata,M,Q16380515,way
 Хаџи-Мелентијева,wikidata,M,Q10857294,way
 Хаџи-Мустафина,wikidata,M,Q2900407,way
 Хаџи-Проданова,wikidata,M,Q1567647,way
@@ -1715,7 +1715,7 @@ name,source,gender,wikidata,type
 "Цара Душана",wikidata,M,Q207303,way
 "Цара Ираклија",wikidata,M,Q41852,way
 "Цара Лазара",wikidata,M,Q310197,way
-"Цара Николаја Другог",wikidata,M,Q40787,way
+"Цара Николаја II",wikidata,M,Q40787,way
 "Цара Уроша",wikidata,M,Q279693,way
 Цвијићева,wikidata,M,Q463896,way
 "Цинцар Јанкова",wikidata,M,Q16086386,way
