@@ -88,6 +88,7 @@ name,source,gender,wikidata,type
 "Катарине Богдановић",wikidata,F,Q20435083,way
 "Катарине Ивановић",wikidata,F,Q752085,way
 "Катарине Миловук",wikidata,F,Q16084607,way
+"Катарине Поповић Миџине",wikidata,F,Q109916582,way
 "Кетрин Макфејл",wikidata,F,Q60571490,way
 "Кларе Цеткин",wikidata,F,Q75823,way
 "Кнегиње Јулије",wikidata,F,Q2330944,way
@@ -144,7 +145,7 @@ name,source,gender,wikidata,type
 "Наде Димић",wikidata,F,Q1288702,way
 "Наде Наумовић",wikidata,F,Q401268,way
 "Наде Пурић",wikidata,F,Q12755952,way
-"Наде Пурић прилаз 1.",wikidata,F,Q12755952,way
+"Наде Пурић прилаз 1",wikidata,F,Q12755952,way
 "Надежде Петровић",wikidata,F,Q264453,way
 "Наке Спасић",wikidata,F,Q61126076,way
 "Наталије Бјелајац",wikidata,F,Q18502378,way
@@ -723,21 +724,14 @@ name,source,gender,wikidata,type
 "Доктора Александра Радосављевића",wikidata,M,Q12748229,way
 "Доктора Андрејке",wikidata,M,Q12755603,way
 "Доктора Аћима Медовића",wikidata,M,Q9163281,way
-"Доктора Велимировића",wikidata,M,Q61134134,way
-"Доктора Вилијама Хантера",wikidata,M,Q944360,way
-"Доктора Владана Ђорђевића",wikidata,M,Q701339,way
 "Доктора Војислава Стојановића",wikidata,M,Q11271496,way
 "Доктора Драгослава Поповића",wikidata,M,Q25460442,way
-"Доктора Драгутина Бошковића",wikidata,M,Q11047527,way
 "Доктора Косте Тодоровића",wikidata,M,Q16099404,way
-"Доктора Лазара Генчића",wikidata,M,Q20436123,way
 "Доктора Милоша Пантића",wikidata,M,Q1567606,way
 "Доктора Милутина Зечевића",wikidata,M,Q31181996,way
 "Доктора Рикарда Буријана",wikidata,M,Q2149149,way
-"Доктора Саве Поповића",wikidata,M,Q25459364,way
 "Доктора Селимира Ђорђевића",wikidata,M,Q12758759,way
 "Доктора Чајкановића",wikidata,M,Q7923178,way
-"Доктора Чедомира Ђурђевића",wikidata,M,Q20437150,way
 "Доментијана Хиландарца",wikidata,M,Q7204863,way
 Доментијанова,wikidata,M,Q7204863,way
 "Доситеја Новаковића",wikidata,M,Q8141374,way
@@ -747,17 +741,24 @@ name,source,gender,wikidata,type
 "Др Агостина Нета",wikidata,M,Q181665,way
 "Др Александра Костића",wikidata,M,Q1541837,way
 "Др Велизара Косановића",wikidata,M,Q16084407,way
+"Др Велимировића",wikidata,M,Q61134134,way
+"Др Вилијама Хантера",wikidata,M,Q944360,way
+"Др Владана Ђорђевића",wikidata,M,Q701339,way
 "Др Војислава Стојановића",wikidata,M,Q11271496,way
 "Др Драгише Мишовића",wikidata,M,Q12751125,way
+"Др Драгутина Бошковића",wikidata,M,Q11047527,way
 "Др Жоржа Матеа",wikidata,M,Q1438399,way
 "Др Ивана Рибара",wikidata,M,Q149090,way
 "Др Иве Поповића Ђанија",wikidata,M,Q61124535,way
 "Др Косте Тодоровића",wikidata,M,Q16099404,way
+"Др Лазара Генчића",wikidata,M,Q20436123,way
 "Др Лудвига Хиршвелда",wikidata,M,Q43466,way
 "Др Милутина Ивковића",wikidata,M,Q726274,way
 "Др Ника Миљанића",wikidata,M,Q3444531,way
+"Др Саве Поповића",wikidata,M,Q25459364,way
 "Др Суботића старијег",wikidata,M,Q12749965,way
 "Др Хуга Клајна",wikidata,M,Q14605628,way
+"Др Чедомира Ђурђевића",wikidata,M,Q20437150,way
 "Драгана Лаковића",wikidata,M,Q1567321,way
 "Драгана Лукића",wikidata,M,Q1272700,way
 "Драгана Максимовића",wikidata,M,Q1565010,way
@@ -1162,7 +1163,7 @@ name,source,gender,wikidata,type
 "Милутина Стефановића",wikidata,M,Q52475657,way
 "Милутина Ускоковића",wikidata,M,Q3314554,way
 "Миодрага Булатовића",wikidata,M,Q923019,way
-"Миодрага Живковића",wikidata,M,Q2422928,way
+"Миодрага Живковића",wikidata,M,Q2422928;Q35892,way
 "Миодрага Ибровца",wikidata,M,Q12755509,way
 "Миодрага Николића",wikidata,M,Q54875413,way
 "Миодрага Петровића",wikidata,M,Q31186759,way
@@ -1679,7 +1680,6 @@ name,source,gender,wikidata,type
 "Филипа Кљајића",wikidata,M,Q1563717,way
 "Филипа Христића",wikidata,M,Q2758638,way
 Финжгарова,wikidata,M,Q972064,way
-"Франа Левстика",wikidata,M,Q15800,way
 "Франца Бевка",wikidata,M,Q710497,way
 "Франца Кафке",wikidata,M,Q905535,way
 "Фрање Јенча",wikidata,M,Q3082465,way
@@ -1703,7 +1703,7 @@ name,source,gender,wikidata,type
 "Хероја Горана Остојића",wikidata,M,Q12750308,way
 "Хероја Милана Тепића",wikidata,M,Q6470722,way
 "Херцега Стјепана",wikidata,M,Q1312266,way
-"Хозе Мартија",wikidata,M,Q103285,way
+"Хозе Мартиа",wikidata,M,Q103285,way
 "Хризостома Војиновића",wikidata,M,Q8111264,way
 "Христифора Жефаровића",wikidata,M,Q614679,way
 "Хуана Антониа Самарана",wikidata,M,Q171166,way
