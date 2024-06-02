@@ -812,7 +812,6 @@ name,source,gender,wikidata,type
 "Старца Вујадина",wikidata,,Q16088050,way
 Степеничка,wikidata,,Q12511,way
 Степојевачка,wikidata,,Q3103021,way
-Стишка,wikidata,,Q1253430,way
 Столарска,wikidata,,Q326358,way
 Столачка,wikidata,,Q1026587,way
 Стражевичка,wikidata,,Q3082567,way
@@ -957,7 +956,6 @@ name,source,gender,wikidata,type
 Шајкашка,wikidata,,Q899289,way
 Шекуларска,wikidata,,Q61361685,way
 "Шемпетер Вртојба",wikidata,,Q391428,way
-"Шеснаестог априла",wikidata,,Q16761133,way
 "Шесте личке дивизије",wikidata,,Q2347039,way
 Шеширџијска,wikidata,,Q1639239,way
 Шидска,wikidata,,Q391545,way
@@ -978,7 +976,11 @@ name,source,gender,wikidata,type
 "30. маја",,,,way
 "4. Флавијеве легије",,,,way
 "5. новембра",,,,way
+"Batajnički bulevar",,,,way
+"Bulevar Arsenija Carnojevica",,,,way
 Gastroшor,,,,relation
+"Narodnih heroja",,,,way
+"Omladinskih brigada",,,,way
 Ђеновичка,,,,way
 Ђеравичка,,,,way
 "Ђоке Богдановића",,,,way
@@ -1064,7 +1066,6 @@ Gastroшor,,,,relation
 "Јозе Шћурле",,,,way
 "Јосипа Новака",,,,way
 "Јосипа Теларевића",,,,way
-"Јосипа Шенера",,,,way
 "Јоце Јовановића",,,,way
 "Јоце Живковића",,,,way
 "Јоцина ада",,,,way

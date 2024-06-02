@@ -400,7 +400,7 @@ name,source,gender,wikidata,type
 "Бертранда Расела",wikidata,M,Q33760,way
 Биничког,wikidata,M,Q1292444,way
 Бирчанинова,wikidata,M,Q5998185,way
-"Благоја Јововића",wikidata,M,Q12628011,way
+"Благоја Јововића",wikidata,M,Q12628011;Q806922,way
 "Благоја Марјановића Моше",wikidata,M,Q2288163,way
 "Благоја Паровића",wikidata,M,Q8248571,way
 "Блажа Попиводе",wikidata,M,Q12749036,way
@@ -720,16 +720,12 @@ name,source,gender,wikidata,type
 Добрачина,wikidata,M,Q12747734,way
 "Добрице Ћосића",wikidata,M,Q369612,way
 "Добрице Милутиновића",wikidata,M,Q1563084,way
-"Доктора Ђорђа Јоановића",wikidata,M,Q580264,way
-"Доктора Александра Радосављевића",wikidata,M,Q12748229,way
 "Доктора Андрејке",wikidata,M,Q12755603,way
 "Доктора Аћима Медовића",wikidata,M,Q9163281,way
 "Доктора Војислава Стојановића",wikidata,M,Q11271496,way
-"Доктора Драгослава Поповића",wikidata,M,Q25460442,way
 "Доктора Косте Тодоровића",wikidata,M,Q16099404,way
 "Доктора Милоша Пантића",wikidata,M,Q1567606,way
 "Доктора Милутина Зечевића",wikidata,M,Q31181996,way
-"Доктора Рикарда Буријана",wikidata,M,Q2149149,way
 "Доктора Селимира Ђорђевића",wikidata,M,Q12758759,way
 "Доктора Чајкановића",wikidata,M,Q7923178,way
 "Доментијана Хиландарца",wikidata,M,Q7204863,way
@@ -737,15 +733,18 @@ name,source,gender,wikidata,type
 "Доситеја Новаковића",wikidata,M,Q8141374,way
 Доситејева,wikidata,M,Q347659,way
 Достојевског,wikidata,M,Q991,way
+"Др Ђорђа Јоановића",wikidata,M,Q580264,way
 "Др Јована Данића",wikidata,M,Q12747731,way
 "Др Агостина Нета",wikidata,M,Q181665,way
 "Др Александра Костића",wikidata,M,Q1541837,way
+"Др Александра Радосављевића",wikidata,M,Q12748229,way
 "Др Велизара Косановића",wikidata,M,Q16084407,way
 "Др Велимировића",wikidata,M,Q61134134,way
 "Др Вилијама Хантера",wikidata,M,Q944360,way
 "Др Владана Ђорђевића",wikidata,M,Q701339,way
 "Др Војислава Стојановића",wikidata,M,Q11271496,way
 "Др Драгише Мишовића",wikidata,M,Q12751125,way
+"Др Драгослава Поповића",wikidata,M,Q25460442,way
 "Др Драгутина Бошковића",wikidata,M,Q11047527,way
 "Др Жоржа Матеа",wikidata,M,Q1438399,way
 "Др Ивана Рибара",wikidata,M,Q149090,way
@@ -755,6 +754,7 @@ name,source,gender,wikidata,type
 "Др Лудвига Хиршвелда",wikidata,M,Q43466,way
 "Др Милутина Ивковића",wikidata,M,Q726274,way
 "Др Ника Миљанића",wikidata,M,Q3444531,way
+"Др Рихарда Буријана",wikidata,M,Q2149149,way
 "Др Саве Поповића",wikidata,M,Q25459364,way
 "Др Суботића старијег",wikidata,M,Q12749965,way
 "Др Хуга Клајна",wikidata,M,Q14605628,way
@@ -1163,7 +1163,7 @@ name,source,gender,wikidata,type
 "Милутина Стефановића",wikidata,M,Q52475657,way
 "Милутина Ускоковића",wikidata,M,Q3314554,way
 "Миодрага Булатовића",wikidata,M,Q923019,way
-"Миодрага Живковића",wikidata,M,Q2422928;Q35892,way
+"Миодрага Живковића",wikidata,M,Q2422928,way
 "Миодрага Ибровца",wikidata,M,Q12755509,way
 "Миодрага Николића",wikidata,M,Q54875413,way
 "Миодрага Петровића",wikidata,M,Q31186759,way
