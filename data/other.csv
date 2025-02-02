@@ -499,7 +499,7 @@ name,source,gender,wikidata,type
 Лесновска,wikidata,,Q2311142,way
 Летенка,wikidata,,Q12754522,way
 Летња,wikidata,,Q1313,way
-Ливачка,wikidata,,Q47004910,way
+Ливачка,wikidata,,Q19391067,way
 Ликсури,wikidata,,Q648399,way
 Лимска,wikidata,,Q167916,way
 Липа,wikidata,,Q127849,way
@@ -978,6 +978,8 @@ name,source,gender,wikidata,type
 "Belgrade viewpoint",,,,way
 "Bulevar Arsenija Carnojevica",,,,way
 Gastroшor,,,,relation
+"Mirka Milojkovica",,,,way
+"Mirka Milojkovića",,,,way
 "Omladinskih brigada",,,,way
 Ђеновичка,,,,way
 Ђеравичка,,,,way

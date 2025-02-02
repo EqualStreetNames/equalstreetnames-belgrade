@@ -1,5 +1,6 @@
 name,source,gender,wikidata,type
 "Сквер Милене и Гаге",wikidata,+,Q917301;Q1252125,way
+"Краљице Драге Обреновић",wikidata,?,Q255820;Q502066,way
 "Ђуке Динић",wikidata,F,Q4161934,way
 "Ђурђевке Чакаревић",wikidata,F,Q12747527,way
 "Јелене Ћетковић",wikidata,F,Q6663953,way
@@ -97,7 +98,6 @@ name,source,gender,wikidata,type
 "Косаре Цветковић",wikidata,F,Q28807052,way
 "Краљице Јелене",wikidata,F,Q267773,way
 "Краљице Ане",wikidata,F,Q468663,way
-"Краљице Драге Обреновић",wikidata,F,Q255820,way
 "Краљице Катарине",wikidata,F,Q452680,way
 "Краљице Марије",wikidata,F,Q167387,way
 "Краљице Наталије",wikidata,F,Q263949,way
