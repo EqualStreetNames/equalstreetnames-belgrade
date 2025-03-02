@@ -80,7 +80,6 @@ name,source,gender,wikidata,type
 Астрономска,wikidata,,Q2346025,way
 Атика,wikidata,,Q122443,way
 Атинска,wikidata,,Q1524,way
-"Аутопут Београд-Остружница",wikidata,,Q14383,way
 Ађутантска,wikidata,,Q369894,way
 Ајдановачка,wikidata,,Q12754810,way
 "Аџине ливаде",wikidata,,Q937919,way
@@ -641,6 +640,7 @@ name,source,gender,wikidata,type
 Пекарска,wikidata,,Q160131,way
 Песничка,wikidata,,Q49757,way
 "Пете козарске",wikidata,,Q2345970,way
+Петефијева,wikidata,,Q81219,way
 Петроварадинска,wikidata,,Q19429,way
 Петровданска,wikidata,,Q153043,way
 Петроградска,wikidata,,Q656,way
@@ -978,8 +978,6 @@ name,source,gender,wikidata,type
 "Belgrade viewpoint",,,,way
 "Bulevar Arsenija Carnojevica",,,,way
 Gastroшor,,,,relation
-"Mirka Milojkovica",,,,way
-"Mirka Milojkovića",,,,way
 "Omladinskih brigada",,,,way
 Ђеновичка,,,,way
 Ђеравичка,,,,way
@@ -1123,6 +1121,7 @@ Gastroшor,,,,relation
 Атланска,,,,way
 Атлантска,,,,way
 Аутопут,,,,way
+"Аутопут Београд - Остружница",,,,way
 "Аутопут за Загреб",,,,way
 "Аутопут за Ниш",,,,way
 "Аутопут за Нови Сад",,,,way
@@ -2042,7 +2041,7 @@ Gastroшor,,,,relation
 Муминовачка,,,,way
 "Наредника Грујице Станковића",,,,way
 "Наредника Драгутина Радаковића",,,,way
-"Насеље Економије бр. 1",,,,way
+"Насеље Економије број 1",,,,way
 "Насеље Земун поље Мала пруга",,,,way
 "Насеље Земун поље мала пруга 2. део",,,,way
 Насип,,,,way
