@@ -1,6 +1,5 @@
 name,source,gender,wikidata,type
 "Сквер Милене и Гаге",wikidata,+,Q917301;Q1252125,way
-"Краљице Драге Обреновић",wikidata,?,Q255820;Q502066,way
 "Ђуке Динић",wikidata,F,Q4161934,way
 "Ђурђевке Чакаревић",wikidata,F,Q12747527,way
 "Јелене Ћетковић",wikidata,F,Q6663953,way
@@ -98,6 +97,7 @@ name,source,gender,wikidata,type
 "Косаре Цветковић",wikidata,F,Q28807052,way
 "Краљице Јелене",wikidata,F,Q267773,way
 "Краљице Ане",wikidata,F,Q468663,way
+"Краљице Драге Обреновић",wikidata,F,Q255820,way
 "Краљице Катарине",wikidata,F,Q452680,way
 "Краљице Марије",wikidata,F,Q167387,way
 "Краљице Наталије",wikidata,F,Q263949,way
@@ -745,7 +745,7 @@ name,source,gender,wikidata,type
 "Др Иве Поповића Ђанија",wikidata,M,Q61124535,way
 "Др Косте Тодоровића",wikidata,M,Q16099404,way
 "Др Лазара Генчића",wikidata,M,Q20436123,way
-"Др Лудвига Хиршвелда",wikidata,M,Q43466,way
+"Др Лудвига Хиршфелда",wikidata,M,Q43466,way
 "Др Милоша Пантића",wikidata,M,Q1567606,way
 "Др Милутина Зечевића",wikidata,M,Q31181996,way
 "Др Милутина Ивковића",wikidata,M,Q726274,way
@@ -1005,7 +1005,7 @@ name,source,gender,wikidata,type
 "Лазе Ристовског",wikidata,M,Q571938,way
 "Лазе Стефановића",wikidata,M,Q16086093,way
 Ламартинова,wikidata,M,Q188697,way
-Левског,wikidata,M,Q318461,way
+Левскога,wikidata,M,Q318461,way
 "Лекса Саичића",wikidata,M,Q4405155,way
 "Леонарда Да Винчија",wikidata,M,Q762,way
 Линденмајерова,wikidata,M,Q12751556,way
@@ -1344,6 +1344,7 @@ name,source,gender,wikidata,type
 "Пере Сегединца",wikidata,M,Q1295432,way
 "Пере Тодоровића",wikidata,M,Q12757120,way
 "Перице Ивановића",wikidata,M,Q25460304,way
+Петефијева,wikidata,M,Q81219,way
 "Петра Ђурковића",wikidata,M,Q2632050,way
 "Петра Јовановића",wikidata,M,Q12757168,way
 "Петра Џаџића",wikidata,M,Q11162655,way
@@ -1391,7 +1392,6 @@ name,source,gender,wikidata,type
 Политова,wikidata,M,Q12755619,way
 "Поп Лукина",wikidata,M,Q12754673,way
 "Поручника Спасића и Машере",wikidata,M,Q1280056;Q1280314,way
-"Прве пруге",wikidata,M,Q1564965,way
 "Предрага Васића",wikidata,M,Q12959366,way
 "Предрага Лаковића",wikidata,M,Q2444746,way
 "Предрага Милојевића",wikidata,M,Q20437668,way
@@ -1701,7 +1701,7 @@ name,source,gender,wikidata,type
 "Хероја Милана Тепића",wikidata,M,Q6470722,way
 "Херцега Стјепана",wikidata,M,Q1312266,way
 "Хозе Мартиа",wikidata,M,Q103285,way
-"Хризостома Војиновића",wikidata,M,Q8111264,way
+"Хризостима Војиновића",wikidata,M,Q8111264,way
 "Христифора Жефаровића",wikidata,M,Q614679,way
 "Хуана Антониа Самарана",wikidata,M,Q171166,way
 Хусова,wikidata,M,Q43977,way
