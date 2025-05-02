@@ -275,7 +275,7 @@ name,source,gender,wikidata,type
 "Јозефа Јиричека",wikidata,M,Q700589,way
 "Јорја Тадића",wikidata,M,Q12633711,way
 "Јосипа Колумба",wikidata,M,Q1564945,way
-"Јосипа Кулунџића",wikidata,M,Q61125201,way
+"Јосипа Кулунџића",wikidata,M,Q12633765,way
 "Јосипа Славенског",wikidata,M,Q1290225,way
 "Јосифа Маринковића",wikidata,M,Q6117614,way
 "Јосифа Татића",wikidata,M,Q299985,way
@@ -308,6 +308,7 @@ name,source,gender,wikidata,type
 "Љубомира Ивановића",wikidata,M,Q6432526,way
 "Љубомира Ивковића Шуце",wikidata,M,Q20435591,way
 "Љубомира Стојановића",wikidata,M,Q2760240,way
+"Љутице Богдана",wikidata,M,Q20500259,way
 Његошева,wikidata,M,Q362081,way
 Ћипикова,wikidata,M,Q1276843,way
 Ћурчијина,wikidata,M,Q14849947,way
@@ -481,6 +482,7 @@ name,source,gender,wikidata,type
 "Булевар деспота Стефана",wikidata,M,Q336531,way
 "Булевар кнеза Александра Карађорђевића",wikidata,M,Q317578,way
 "Булевар краља Александра",wikidata,M,Q297547,way
+"Булевар краља Александра I Карађорђевића",wikidata,M,Q297547,way
 "Булевар маршала Толбухина",wikidata,M,Q48149,way
 "Булевар патријарха Павла",wikidata,M,Q310119,way
 "Булија Бенциона",wikidata,M,Q12748836,way
@@ -672,7 +674,7 @@ name,source,gender,wikidata,type
 "Грчића Миленка",wikidata,M,Q13566195,way
 "Гундулићев венац",wikidata,M,Q317588,way
 Гундулићева,wikidata,M,Q317588,way
-"Гуслара Перуна",wikidata,M,Q16086999,way
+"Гуслара Перуна",wikidata,M,Q7171738,way
 "Густава Климта",wikidata,M,Q34661,way
 "Давида Пајића",wikidata,M,Q166071,way
 Давидовићева,wikidata,M,Q905518,way
@@ -719,7 +721,6 @@ name,source,gender,wikidata,type
 Добрачина,wikidata,M,Q12747734,way
 "Добрице Ћосића",wikidata,M,Q369612,way
 "Добрице Милутиновића",wikidata,M,Q1563084,way
-"Доктора Косте Тодоровића",wikidata,M,Q16099404,way
 "Доментијана Хиландарца",wikidata,M,Q7204863,way
 Доментијанова,wikidata,M,Q7204863,way
 "Доситеја Новаковића",wikidata,M,Q8141374,way
@@ -860,6 +861,7 @@ name,source,gender,wikidata,type
 "Змаја од Ноћаја",wikidata,M,Q7618398,way
 "Зорана Јанковића",wikidata,M,Q220519,way
 "Зорана Глушчевића",wikidata,M,Q61670481,way
+"Зорана Жунковића",wikidata,M,Q123562998,way
 "Зорана Радмиловића",wikidata,M,Q1287242,way
 "Зуке Џумхура",wikidata,M,Q1280464,way
 "Ибрахима Бабовића",wikidata,M,Q12752107,way
@@ -1125,6 +1127,7 @@ name,source,gender,wikidata,type
 "Миломира Станишића",wikidata,M,Q12755415,way
 "Милорада Бате Михаиловића",wikidata,M,Q2887763,way
 "Милорада Бонџулића",wikidata,M,Q4093295,way
+"Милорада Гавриловића",wikidata,M,Q4131216,way
 "Милорада Димитријевића",wikidata,M,Q12755417,way
 "Милорада Драшковића",wikidata,M,Q12755418,way
 "Милорада Екмечића",wikidata,M,Q893044,way
@@ -1391,6 +1394,7 @@ name,source,gender,wikidata,type
 "Пола Гогена",wikidata,M,Q37693,way
 Политова,wikidata,M,Q12755619,way
 "Поп Лукина",wikidata,M,Q12754673,way
+"Поп Стојанова",wikidata,M,Q110047215,way
 "Поручника Спасића и Машере",wikidata,M,Q1280056;Q1280314,way
 "Предрага Васића",wikidata,M,Q12959366,way
 "Предрага Лаковића",wikidata,M,Q2444746,way
@@ -1519,7 +1523,6 @@ name,source,gender,wikidata,type
 "Симе Лозанића",wikidata,M,Q3053165,way
 "Симе Лукина Лазића",wikidata,M,Q12758832,way
 "Симе Матавуља",wikidata,M,Q1275981,way
-"Симе Милошевића",wikidata,M,Q11166674,way
 "Симе Пандуровића",wikidata,M,Q3504002,way
 "Симе Симића",wikidata,M,Q61130184,way
 "Симе Тројановића",wikidata,M,Q12758837,way
@@ -1558,6 +1561,7 @@ name,source,gender,wikidata,type
 "Слободана Сантрача",wikidata,M,Q949030,way
 "Слободана Селенића",wikidata,M,Q12959883,way
 Сметанина,wikidata,M,Q48173,way
+Смиљанићева,wikidata,M,Q12756244,way
 "Спасе Гарде",wikidata,M,Q3400963,way
 "Спасићев пролаз",wikidata,M,Q16086743,way
 "Споменка Гостића",wikidata,M,Q10855260,way
