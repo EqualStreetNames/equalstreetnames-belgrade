@@ -234,7 +234,6 @@ name,source,gender,wikidata,type
 "Јаше Продановића",wikidata,M,Q14867564,way
 "Јеврема Грујића",wikidata,M,Q12747630,way
 Јенкова,wikidata,M,Q1178302,way
-"Јернеја Копитара",wikidata,M,Q84444,way
 Јесењинова,wikidata,M,Q31628,way
 Јиречекова,wikidata,M,Q700589,way
 "Јоакима Вујића",wikidata,M,Q1269140,way
@@ -974,7 +973,7 @@ name,source,gender,wikidata,type
 "Краља Владислава",wikidata,M,Q346960,way
 "Краља Вукашина",wikidata,M,Q380071,way
 "Краља Драгутина",wikidata,M,Q290786,way
-"Краља Милана",wikidata,M,Q313829,way
+"Краља Милана",wikidata,M,Q313829;Q3711,way
 "Краља Милутина",wikidata,M,Q319597,way
 "Краља Михаила Зетског",wikidata,M,Q971449,way
 "Краља Николе",wikidata,M,Q283255,way
