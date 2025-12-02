@@ -928,7 +928,6 @@ name,source,gender,wikidata,type
 "Церски венац",wikidata,-,Q157277,way
 Цетињска,wikidata,-,Q173338,way
 Цељска,wikidata,-,Q1012,way
-"Црвена Звезда",wikidata,-,Q208578,way
 "Црвена звезда",wikidata,-,Q208578,way
 "Црвених дудова",wikidata,-,Q1520764,way
 "Црвених храстова",wikidata,-,Q147525,way
@@ -1937,6 +1936,7 @@ name,source,gender,wikidata,type
 "Корнелија Станковића",wikidata,M,Q751811,way
 Кортесарова,wikidata,M,Q174210,way
 "Косанчићев венац",wikidata,M,Q15240326,way
+"Косте Јовановића",wikidata,M,Q61133830,way
 "Косте Јосиповића",wikidata,M,Q20434454,way
 "Косте Абрашевића",wikidata,M,Q663824,way
 "Косте Алковића",wikidata,M,Q25459012,way
