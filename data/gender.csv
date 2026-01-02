@@ -253,6 +253,7 @@ name,source,gender,wikidata,type
 Гардошка,wikidata,-,Q3081396,way
 "Гвозденог пука",wikidata,-,Q25459116,way
 Генералска,wikidata,-,Q83460,way
+Главна,wikidata,-,Q2095549,way
 Гласиначка,wikidata,-,Q6470594,way
 Голијска,wikidata,-,Q2734930,way
 Голубачка,wikidata,-,Q845997,way
@@ -859,11 +860,9 @@ name,source,gender,wikidata,type
 Топола,wikidata,-,Q25356,way
 Тополска,wikidata,-,Q991072,way
 "Топчидерска долина",wikidata,-,Q2065016,way
-"Топчидерска звезда",wikidata,-,Q2065016,way
 "Топчидерски венац",wikidata,-,Q2065016,way
 "Торлачки вис",wikidata,-,Q16089483,way
 "Трг Политика",wikidata,-,Q1248780,way
-"Трг ослобођења",wikidata,-,Q24238946,way
 "Трг републике",wikidata,-,Q7270,way
 Трговачка,wikidata,-,Q601401,way
 Требевићка,wikidata,-,Q612240,way
@@ -975,6 +974,7 @@ name,source,gender,wikidata,type
 Шумска,wikidata,-,Q4421,way
 "Благоја Јововића",wikidata,?,Q12628011;Q806922,way
 "Патријарха Јоаникија",wikidata,?,Q12758643;Q141346,way
+"Радмиле Савићевић",wikidata,?,Q1293498;Q2444244,way
 "Ђуке Динић",wikidata,F,Q4161934,way
 "Ђурђевке Чакаревић",wikidata,F,Q12747527,way
 "Јелене Ћетковић",wikidata,F,Q6663953,way
@@ -1142,7 +1142,6 @@ name,source,gender,wikidata,type
 "Плато Соје Јовановић",wikidata,F,Q12759102,way
 "Полексије Тодоровић",wikidata,F,Q28806164,way
 "Принцезе Оливере",wikidata,F,Q458610,way
-"Радмиле Савићевић",wikidata,F,Q2444244,way
 "Радојке Лакић",wikidata,F,Q2160017,way
 "Ребеке Вест",wikidata,F,Q236669,way
 "Розалин Френклин",wikidata,F,Q7474,way
@@ -1817,6 +1816,7 @@ name,source,gender,wikidata,type
 "Жарка Трпковића",wikidata,M,Q25463897,way
 "Живана Сарамандића",wikidata,M,Q16084251,way
 "Живка Карабиберовића",wikidata,M,Q126199499,way
+"Живка Настића Бабе",wikidata,M,Q16084034,way
 "Живорада Ђукића",wikidata,M,Q20437144,way
 "Живорада Жике Митровића",wikidata,M,Q1260675,way
 "Живорада Настасијевића",wikidata,M,Q16098968,way
@@ -1830,7 +1830,6 @@ name,source,gender,wikidata,type
 "Жупана Часлава",wikidata,M,Q337693,way
 "Завише Црног",wikidata,M,Q167778,way
 "Зарија Вујошевића",wikidata,M,Q12751881,way
-"Зарије Вујошевића",wikidata,M,Q12751881,way
 Зајцова,wikidata,M,Q380547,way
 "Звонка Марића",wikidata,M,Q12751936,way
 "Здравка Јовановића",wikidata,M,Q12751954,way
