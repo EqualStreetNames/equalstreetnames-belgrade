@@ -102,6 +102,7 @@ name,source,gender,wikidata,type
 Баточинска,wikidata,-,Q17613911,way
 Бачварска,wikidata,-,Q38883,way
 Бачка,wikidata,-,Q210300,way
+"Бачки иловик",wikidata,-,Q210300,way
 Баш-Челика,wikidata,-,Q809720,way
 Башаидска,wikidata,-,Q302123,way
 Баштованска,wikidata,-,Q758780,way
@@ -453,7 +454,7 @@ name,source,gender,wikidata,type
 Космајска,wikidata,-,Q1288526,way
 "Космајски пролаз",wikidata,-,Q1288526,way
 "Космајског одреда",wikidata,-,Q11117229,way
-"Косовке девојке",wikidata,-,Q1160229,way
+"Косовке Девојке",wikidata,-,Q1160229,way
 Косовска,wikidata,-,Q1231,way
 "Косовских божура",wikidata,-,Q12745710,way
 "Косовског боја",wikidata,-,Q179288,way
@@ -488,7 +489,7 @@ name,source,gender,wikidata,type
 Кубанска,wikidata,-,Q241,way
 Кулска,wikidata,-,Q544109,way
 Кумановска,wikidata,-,Q54452,way
-Кумодрашка,wikidata,-,Q3200401,way
+Кумодрашка,wikidata,-,Q1096087;Q3200401,way
 Купрешка,wikidata,-,Q583953,way
 Курирска,wikidata,-,Q848466,way
 Кучајска,wikidata,-,Q2346380,way
@@ -907,6 +908,7 @@ name,source,gender,wikidata,type
 Фрушкогорска,wikidata,-,Q116285,way
 Хазарска,wikidata,-,Q173282,way
 Хасанагинице,wikidata,-,Q3437830,way
+"Хајдук Станкова",wikidata,-,Q85989430,way
 Херцеговачка,wikidata,-,Q189863;Q189863;Q22667,way
 Хиландарска,wikidata,-,Q849914,way
 "Хиљаду триста каплара",wikidata,-,Q12744396,way
@@ -2539,7 +2541,6 @@ name,source,gender,wikidata,type
 Синђелићева,wikidata,M,Q692749,way
 "Синђелићево сокаче",wikidata,M,Q692749,way
 "Сквер Моме Капора",wikidata,M,Q976238,relation
-"Сквер Слободана Марковића",wikidata,M,Q3486742,way
 "Сквер деспота Стефана",wikidata,M,Q336531,relation
 Скендербегова,wikidata,M,Q160614,way
 Скерлићева,wikidata,M,Q1278008,way
@@ -2697,7 +2698,6 @@ name,source,gender,wikidata,type
 "Хајдук Вељков венац",wikidata,M,Q701281,way
 "Хајдук Вељкова",wikidata,M,Q701281,way
 "Хајдук Вељково сокаче",wikidata,M,Q701281,way
-"Хајдук Станкова",wikidata,M,Q85989430,way
 "Хајима Давича",wikidata,M,Q110045765,way
 "Хаџи Рувимова",wikidata,M,Q13567561,way
 Хаџи-Ђерина,wikidata,M,Q16380515,way
