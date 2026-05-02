@@ -1,5 +1,4 @@
 name,source,gender,wikidata,type
-"Сквер Милене и Гаге",wikidata,+,Q917301;Q1252125,way
 "16. априла",wikidata,-,Q16761133,way
 "28. јуна",wikidata,-,Q833147,way
 Ђаковачка,wikidata,-,Q474651,way
@@ -1139,7 +1138,6 @@ name,source,gender,wikidata,type
 "Оливере Марковић",wikidata,F,Q299979,way
 "Оље Ивањицки",wikidata,F,Q461046,way
 "Персиде Миленковић",wikidata,F,Q954994,way
-"Плато Соје Јовановић",wikidata,F,Q12759102,way
 "Полексије Тодоровић",wikidata,F,Q28806164,way
 "Принцезе Оливере",wikidata,F,Q458610,way
 "Радојке Лакић",wikidata,F,Q2160017,way
@@ -2378,13 +2376,10 @@ name,source,gender,wikidata,type
 Пироћанчева,wikidata,M,Q2045522,way
 "Плато Ђоке Вјештице",wikidata,M,Q12747477,way
 "Плато Александра Николића",wikidata,M,Q1282797,way
-"Плато Богдана Бабића",wikidata,M,Q20434762,way
 "Плато Димитрија Туцовића",wikidata,M,Q905535,way
 "Плато Милана Младеновића",wikidata,M,Q104259,relation+way
-"Плато Ненада Радуловића Неше Лептира",wikidata,M,Q6991484,way
 "Плато Раше Ливаде",wikidata,M,Q25464572,way
 "Плато Раше Попова",wikidata,M,Q11203046,way
-"Плато Слободана Јовановића",wikidata,M,Q89188,way
 Подруговићева,wikidata,M,Q478851,way
 Поенкареова,wikidata,M,Q191974,way
 "Пола Гогена",wikidata,M,Q37693,way
