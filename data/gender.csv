@@ -377,6 +377,7 @@ name,source,gender,wikidata,type
 Идеја,wikidata,-,Q131841,way
 Идријска,wikidata,-,Q15875,way
 Избичка,wikidata,-,Q15729376,way
+Изворска,wikidata,-,Q124714,way
 Илинденска,wikidata,-,Q2578183,way
 Илирска,wikidata,-,Q146715,way
 "Интернационалних бригада",wikidata,-,Q132518,way
@@ -968,6 +969,7 @@ name,source,gender,wikidata,type
 "Шпанских бораца",wikidata,-,Q2987146,way
 Штипска,wikidata,-,Q147243,way
 Шумадијска,wikidata,-,Q261430,way
+"Шумадијске дивизије",wikidata,-,Q12807419,way
 "Шумадијски трг",wikidata,-,Q261430,way
 Шумарице,wikidata,-,Q2371121,way
 Шумска,wikidata,-,Q4421,way
@@ -1808,6 +1810,7 @@ name,source,gender,wikidata,type
 "Епископа Николаја",wikidata,M,Q566764,way
 Есад-пашина,wikidata,M,Q366796,way
 "Еугена Савојског",wikidata,M,Q152428,way
+"Жана Сибелијуса",wikidata,M,Q45682,way
 "Жарка Вуковића Пуцара",wikidata,M,Q12751687,way
 "Жарка Миладиновића",wikidata,M,Q16098899,way
 "Жарка Трпковића",wikidata,M,Q25463897,way
@@ -2398,6 +2401,7 @@ name,source,gender,wikidata,type
 "Проте Милана Смиљанића",wikidata,M,Q31186128,way
 "Професора Михаила Ђурића",wikidata,M,Q3313065,way
 "Пуковника Миленка Павловића",wikidata,M,Q16089105,way
+"Пуковника Петра Мишића",wikidata,M,Q107630724,way
 "Пуковника Пурића",wikidata,M,Q12751359,way
 "Пупинов мост",wikidata,M,Q196287,way
 Пупинова,wikidata,M,Q196287,way
