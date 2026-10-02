@@ -1,6 +1,7 @@
 name,source,gender,wikidata,type
 "16. априла",wikidata,-,Q16761133,way
 "28. јуна",wikidata,-,Q833147,way
+"30. маја",wikidata,-,Q2590,way
 Ђаковачка,wikidata,-,Q474651,way
 Ђалинска,wikidata,-,Q572900,way
 Ђачка,wikidata,-,Q48942,way
@@ -338,7 +339,6 @@ name,source,gender,wikidata,type
 Жада,wikidata,-,Q175089,way
 Жарковачка,wikidata,-,Q2741366,way
 Ждралова,wikidata,-,Q4764,way
-Железник,wikidata,-,Q1259238,way
 Железничка,wikidata,-,Q22667,way
 Жидоварска,wikidata,-,Q3594438,way
 Житна,wikidata,-,Q12117,way
@@ -542,6 +542,8 @@ name,source,gender,wikidata,type
 Мајска,wikidata,-,Q119,way
 Маљенска,wikidata,-,Q3048671,way
 Меандарска,wikidata,-,Q180537,way
+Мегарска,wikidata,-,Q31182911,way
+Медлиншка,wikidata,-,Q277965,way
 Мезијска,wikidata,-,Q199499,way
 Мексичка,wikidata,-,Q96,way
 Мерошинска,wikidata,-,Q2041788,way
@@ -898,6 +900,7 @@ name,source,gender,wikidata,type
 Устаничка,wikidata,-,Q124734,way
 Ученичка,wikidata,-,Q48942,way
 Учитељска,wikidata,-,Q37226,way
+Ушће,wikidata,-,Q12760429,way
 Фармацеутска,wikidata,-,Q105186,way
 Фенечка,wikidata,-,Q1932727,way
 Фигарова,wikidata,-,Q201873,way
@@ -1590,6 +1593,7 @@ name,source,gender,wikidata,type
 "Воје Вељковића",wikidata,M,Q12749952,way
 "Војина Ђурашиновића Костје",wikidata,M,Q11258445,way
 "Војина Бакића",wikidata,M,Q566790,way
+"Војина Дајовића",wikidata,M,Q61124530,way
 "Војислава Јовановића Марамба",wikidata,M,Q7939830,way
 "Војислава Вокија Костића",wikidata,M,Q3395807,way
 "Војислава Вучковића",wikidata,M,Q328394,way
@@ -1695,6 +1699,7 @@ name,source,gender,wikidata,type
 "Димитрија Лазарова Раше",wikidata,M,Q20437028,way
 "Димитрија Маринковића",wikidata,M,Q25460101,way
 "Димитрија Нешића",wikidata,M,Q5277558,way
+"Димитрија Николајевића",wikidata,M,Q902235,way
 "Димитрија Поповића",wikidata,M,Q12750896,way
 "Димитрија Савића",wikidata,M,Q52924211,way
 "Димитрија Туцовића",wikidata,M,Q905535,way
@@ -1742,6 +1747,7 @@ name,source,gender,wikidata,type
 "Др Хуга Клајна",wikidata,M,Q14605628,way
 "Др Чајкановића",wikidata,M,Q7923178,way
 "Др Чедомира Ђурђевића",wikidata,M,Q20437150,way
+"Драгана Јефтића",wikidata,M,Q12757768,way
 "Драгана Лаковића",wikidata,M,Q1567321,way
 "Драгана Лукића",wikidata,M,Q1272700,way
 "Драгана Максимовића",wikidata,M,Q1565010,way
@@ -1832,6 +1838,7 @@ name,source,gender,wikidata,type
 "Зарија Вујошевића",wikidata,M,Q12751881,way
 Зајцова,wikidata,M,Q380547,way
 "Звонка Марића",wikidata,M,Q12751936,way
+"Звонка Миленковића",wikidata,M,Q12751950,way
 "Здравка Јовановића",wikidata,M,Q12751954,way
 "Здравка Велимировића",wikidata,M,Q14756516,way
 "Здравка Зупана",wikidata,M,Q1281761,way
@@ -1891,6 +1898,7 @@ name,source,gender,wikidata,type
 "Каплара Момчила Гаврића",wikidata,M,Q12755708,way
 "Карађорђев трг",wikidata,M,Q315172,way
 Карађорђева,wikidata,M,Q315172,way
+"Карла Сопрона",wikidata,M,Q19975247,way
 Карнегијева,wikidata,M,Q484265,way
 Карпошева,wikidata,M,Q1289578,way
 Катанићева,wikidata,M,Q56683342,way
@@ -1926,6 +1934,7 @@ name,source,gender,wikidata,type
 "Константина Бабића",wikidata,M,Q2244067,way
 "Константина Данила",wikidata,M,Q648562,way
 "Константина Кавафија",wikidata,M,Q216980,way
+"Константина Лекића",wikidata,M,Q141552402,way
 "Константина Симонова",wikidata,M,Q44695,way
 "Константина Филозофа",wikidata,M,Q1782745,way
 Конфуцијева,wikidata,M,Q4604,way
@@ -1995,7 +2004,7 @@ name,source,gender,wikidata,type
 Ламартинова,wikidata,M,Q188697,way
 Левскога,wikidata,M,Q318461,way
 "Лекса Саичића",wikidata,M,Q4405155,way
-"Леонарда Да Винчија",wikidata,M,Q762,way
+"Леонарда да Винчија",wikidata,M,Q762,way
 Линденмајерова,wikidata,M,Q12751556,way
 "Лоле Рибара",wikidata,M,Q1265884,way
 Ломина,wikidata,M,Q2864408,way
@@ -2547,6 +2556,7 @@ name,source,gender,wikidata,type
 "Славка Шландера",wikidata,M,Q6591775,way
 "Славољуба Вуксановића",wikidata,M,Q16085675,way
 "Слободана Ђурића",wikidata,M,Q12758952,way
+"Слободана Јанковића",wikidata,M,Q2335631,way
 "Слободана Јовановића",wikidata,M,Q89188,way
 "Слободана Јовића",wikidata,M,Q16085898,way
 "Слободана Алигрудића",wikidata,M,Q1256830,way
@@ -2591,7 +2601,6 @@ name,source,gender,wikidata,type
 "Стевана Мокрањца",wikidata,M,Q719121,way
 "Стевана Мусића",wikidata,M,Q16087674,way
 "Стевана Опачића",wikidata,M,Q16088327,way
-"Стевана Првовенчаног",wikidata,M,Q24445,way
 "Стевана Симића",wikidata,M,Q13107429,way
 "Стевана Синђелића",wikidata,M,Q692749,way
 "Стевана Сремца",wikidata,M,Q559989,way
@@ -2602,6 +2611,7 @@ name,source,gender,wikidata,type
 Стевчина,wikidata,M,Q3973461,way
 Стеријина,wikidata,M,Q1287180,way
 "Стефана Драгутина Немањића",wikidata,M,Q290786,way
+"Стефана Мусића",wikidata,M,Q16087674,way
 "Стефана Првовенчаног",wikidata,M,Q24445,way
 "Стефана Радослава",wikidata,M,Q355911,way
 "Стојадина Мирковића",wikidata,M,Q16012661,way
